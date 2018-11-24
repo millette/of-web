@@ -2,6 +2,26 @@
   "name": "of-web",
   "version": "0.0.0",
   "license": "AGPL-3.0",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": "millette/of-web",
+  "author": {
+    "name": "Robin Millette",
+    "email": "robin@millette.info",
+    "url": "http://robin.millette.info"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -12,5 +32,10 @@
     "next": "^7.0.2-canary.26",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2"
   }
 }
