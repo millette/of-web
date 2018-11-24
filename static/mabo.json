@@ -1,0 +1,4055 @@
+[
+  {
+    "language": "en",
+    "data": {
+      "url": "http://mabo.ca/s/en/Category/All.html",
+      "redirected": false,
+      "html": {
+        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+        "author": "Centre du Camion Mabo inc.",
+        "title": "Category -",
+        "description": "Le Centre du Camion Mabo inc. offre aux entreprises de transport de l'Abitibi, du Témiscamingue et du Nord du Québec les meilleurs services d'entretien, de répa...",
+        "apple-mobile-web-app-title": "Mabo",
+        "application-name": "Mabo"
+      },
+      "alternate": [
+        {
+          "type": "text/html",
+          "hreflang": "fr",
+          "href": "http://mabo.ca/s/fr/Categorie/Tous.html"
+        }
+      ],
+      "rdfa": {
+        "@context": {
+          "og": "http://ogp.me/ns#",
+          "fb": "http://ogp.me/ns/fb#",
+          "product": "http://ogp.me/ns/product#"
+        },
+        "@graph": [
+          {
+            "og:type": "website",
+            "og:site_name": "Centre du Camion Mabo inc.",
+            "fb:app_id": "1501127320149157",
+            "og:locale": "fr_CA",
+            "og:url": "http://mabo.ca/s/en/Category/All.html",
+            "og:image": "http://mabo.ca/Upload/79/3757a1ce-ccb2-4185-8263-0ecfacc2455d.png",
+            "og:image:type": "image/png",
+            "og:image:width": "600",
+            "og:image:height": "315",
+            "og:title": "Category -",
+            "og:description": "Le Centre du Camion Mabo inc. offre aux entreprises de transport de l'Abitibi, du Témiscamingue et du Nord du Québec les meilleurs services d'entretien, de réparation et de pièces de camions et remorques."
+          }
+        ]
+      },
+      "jsonld": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Centre du Camion Mabo inc.",
+        "url": "http://mabo.ca",
+        "sameAs": [
+          "http://Shop.CompanyShop.ca/86",
+          "https://www.facebook.com/www.mabo.ca"
+        ]
+      },
+      "links": [
+        {
+          "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html",
+          "text": "Deck forestier/logger",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html",
+          "text": "Freightliner 114SD 2019",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+          "text": "Freightliner New Cascadia 2019",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+          "text": "Freightliner PT126SLP",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+          "text": "Freightliner PT126SLP",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html",
+          "text": "Remorque convoyeur ABS",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html",
+          "text": "Remorque Manac",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+          "text": "Western Star 2017 Dramis",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+          "text": "Western Star 2019 4900SB",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+          "text": "Western Star 4900SB",
+          "download": false
+        },
+        {
+          "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+          "text": "Western Star 4900SF 2019",
+          "download": false
+        }
+      ]
+    },
+    "products": [
+      {
+        "url": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Deck forestier/logger",
+          "description": "Logger Deck NEW",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html",
+              "og:image": "http://mabo.ca/Upload/79/84cdb2a3-889b-4888-bd28-6d3769434ced.jpg",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Deck forestier/logger",
+              "og:description": "Logger Deck NEW"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "mpn": "michel gagnon",
+              "image": "http://mabo.ca/Upload/79/84cdb2a3-889b-4888-bd28-6d3769434ced.jpg",
+              "name": "Deck forestier/logger",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "Logger deck built by Michel Gagnon of Lebel-sur-Quévillon, Québec. Compatible with most loggers.",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1337/Category/transport-trucks-trailers-and-other.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1337/Category/transport-trucks-trailers-and-other.html",
+              "title": "Remorques et autre Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/12658?category=transport-trucks&subcategory=trailers-and-other&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1337/Category/transport-trucks-trailers-and-other.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1337/Category/transport-trucks-trailers-and-other.html",
+            "text": "Remorques et autre Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html",
+            "text": "Freightliner 114SD 2019",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Freightliner 114SD 2019",
+          "description": "Moteur : DD13 12,8 L - 470 Hp Transmission : Allison 4500 RDS Automatic",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html",
+              "og:image": "http://mabo.ca/Upload/79/0272cba9-8e37-4b73-9e33-e28ea730161b.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Freightliner 114SD 2019",
+              "og:description": "Moteur : DD13 12,8 L - 470 Hp Transmission : Allison 4500 RDS Automatic"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "image": "http://mabo.ca/Upload/79/0272cba9-8e37-4b73-9e33-e28ea730161b.JPG",
+              "name": "Freightliner 114SD 2019",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "-Marque : Freightliner -Année : 2019 -Model : 114SD Conventional Chassis -Moteur: DD13 12,8 L 470 Hp, 1650 Lb/Ft -Transmission : Allison RDS 4500 Automatique -Essieu avant: MFS-20-133A 40,000# FL1 -Essieu arrière:RT-46-164 46,000# R-Series -Ratio: 4,89 -Suspension: Tuftrac 46,000# Spring -Empattement: 252'' -Pneus avants : Michelin XFE 425/65R22,5 20 plis Radial -Pneus arrières : Michelin X Multi D 11R22,5 16 plis Radial -Couchette : Non",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1228/Category/transport-trucks-new.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1228/Category/transport-trucks-new.html",
+              "title": "Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13385?category=transport-trucks&subcategory=new&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1228/Category/transport-trucks-new.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1228/Category/transport-trucks-new.html",
+            "text": "Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13385/Products/transport-trucks/new/freightliner-114sd-2019.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/12658/Products/transport-trucks/trailers-and-other/deck-forestierlogger.html",
+            "text": "Deck forestier/logger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Freightliner New Cascadia 2019",
+          "description": "2 camions jumeaux: Moteur : Detroit DD15 14,8 L Transmission : Eaton RTLO-18918B",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+              "og:image": "http://mabo.ca/Upload/79/92092753-3411-466a-af4f-ece41707f1c5.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Freightliner New Cascadia 2019",
+              "og:description": "2 camions jumeaux: Moteur : Detroit DD15 14,8 L Transmission : Eaton RTLO-18918B"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "mpn": "KN2357-KN2358",
+              "image": "http://mabo.ca/Upload/79/92092753-3411-466a-af4f-ece41707f1c5.JPG",
+              "name": "Freightliner New Cascadia 2019",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "Marque : Freightliner Année : 2019 Model : New Cascadia Moteur : Detroit DD15 14,8 L, 505 Hp, 1750 Tp Transmission : Eaton RTLO-18918B Essieux avant: 14,600 Essieux arrière: 46,000 Suspension : Airliner 46,000 lbs Wheelbase: 237 Roues : 22.5x8.25 Pneus : XDN2 11R22.5",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camion Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13391?category=transport-trucks&subcategory=new-truck&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camion Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Freightliner PT126SLP",
+          "description": "New Cascadia 2019 Moteur Detroit DD15 - 505 Hp Transmission : RTLO-18918B",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+              "og:image": "http://mabo.ca/Upload/79/c2fe6bcb-4bd4-48e5-a13e-fda07a9bdacd.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Freightliner PT126SLP",
+              "og:description": "New Cascadia 2019 Moteur Detroit DD15 - 505 Hp Transmission : RTLO-18918B"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "mpn": "KA1515",
+              "image": "http://mabo.ca/Upload/79/c2fe6bcb-4bd4-48e5-a13e-fda07a9bdacd.JPG",
+              "name": "Freightliner PT126SLP",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "SUPERBE NEW CASCADIA 2019. CONTACTEZ-NOUS POUR PLUS D'INFORMATIONS. 819-825-8995 -Moteur : Detroit DD15 - 505 Hp -Transmission: RTLO-18918B -Essieux avant: 14,600 -Essieux arrière: 40,000 -Ratio: 3,70 -Empattement: 227 -Pneus: 11R22.5 - Super single -Suspension: Airliner 40,000 Lbs -Cabine: 72\" XT",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camion Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13380?category=transport-trucks&subcategory=new-truck&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camion Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Freightliner PT126SLP",
+          "description": "New Cascadia 2019 Moteur Detroit DD15 - 505 Hp Transmission : RTLO-18913A",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+              "og:image": "http://mabo.ca/Upload/79/a4d520f6-4625-4723-aec9-1a2e2adfbd3d.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Freightliner PT126SLP",
+              "og:description": "New Cascadia 2019 Moteur Detroit DD15 - 505 Hp Transmission : RTLO-18913A"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "mpn": "JZ9734",
+              "image": "http://mabo.ca/Upload/79/a4d520f6-4625-4723-aec9-1a2e2adfbd3d.JPG",
+              "name": "Freightliner PT126SLP",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "SUPERBE NEW CASCADIA 2019 CONTACTEZ-NOUS POUR PLUS D'INFORMATIONS. 819-825-8995 -Moteur: Detroir DD15 - 505 Hp -Transmission : RTLO-18913A -Essieux avant: 13,300 -Essieux arrière: 46,000 -Différentiel : 3.91 -Empattement: 216 -Pneus : 11R22.5 -Suspension : Airliner 46,000 lbs",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camion Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13382?category=transport-trucks&subcategory=new-truck&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camion Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Remorque convoyeur ABS",
+          "description": "Remorque convoyeur ABS 2019",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html",
+              "og:image": "http://mabo.ca/Upload/79/9edaeffb-2624-4577-ae67-d50d568b3726.jpg",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Remorque convoyeur ABS",
+              "og:description": "Remorque convoyeur ABS 2019"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "image": "http://mabo.ca/Upload/79/9edaeffb-2624-4577-ae67-d50d568b3726.jpg",
+              "name": "Remorque convoyeur ABS",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "Longueur : 47' Largeur : 102'' Point le plus élevé: 134'' Pivot d'attelage : 16'' Volume : 56 yd³ / 43 M³ Hauteur (côté) 123'' Masse vide : 11 525 kg / 25 400 Lbs Pneus: Continental HSR2, 11R22.5, 16 plis, Continental HTR2 385/65R22.5, 20 plis Suspension (SSA): HT250 Hendrickson, capacité 25,000 li., avec releveur CL 142 Suspensions primaires: Intraax hendricksonm, capacité 30,000 li",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1271/Category/truck-trailer-new.html",
+              "title": "Remorques de poids-lourd"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1271/Category/truck-trailer-new.html",
+              "title": "Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13384?category=truck-trailer&subcategory=new&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1271/Category/truck-trailer-new.html",
+            "text": "Remorques de poids-lourd",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1271/Category/truck-trailer-new.html",
+            "text": "Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html",
+            "text": "Remorque Manac",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Remorque Manac",
+          "description": "remorque logger 2017 en stock à Val-d'Or!",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html",
+              "og:image": "http://mabo.ca/Upload/79/9cd0b851-afbc-4436-94ae-e3e06b0592b7.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Remorque Manac",
+              "og:description": "remorque logger 2017 en stock à Val-d'Or!"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "brand": "Manac",
+              "image": "http://mabo.ca/Upload/79/9cd0b851-afbc-4436-94ae-e3e06b0592b7.JPG",
+              "name": "Remorque Manac",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "-Longueur: 51 pieds -Axles : 30,000 lbs -Suspension: Intrax 30,000 lbs -Roues: Aluminium Accuride -Brakes: New 3 Axles, Pop 50% -Pin Distances: 24'' -Spare tires rack -Tires: 11 R 24.5 -10 bunk New drop, new post, 5 arrimes, repaint août 2018.",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1272/Category/truck-trailer-used.html",
+              "title": "Remorques de poids-lourd"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1272/Category/truck-trailer-used.html",
+              "title": "Usagé"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13381?category=truck-trailer&subcategory=used&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1272/Category/truck-trailer-used.html",
+            "text": "Remorques de poids-lourd",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1272/Category/truck-trailer-used.html",
+            "text": "Usagé",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13381/Products/truck-trailer/used/remorque-manac.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13384/Products/truck-trailer/new/remorque-convoyeur-abs.html",
+            "text": "Remorque convoyeur ABS",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Western Star 2017 Dramis",
+          "description": "Engine: DDC 60-14. 0L 500 HP Transmission: Allison 4500 rds Automatic",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+              "og:image": "http://mabo.ca/Upload/79/19a0cde7-d464-4bd5-ac5b-c8e8f2642549.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Western Star 2017 Dramis",
+              "og:description": "Engine: DDC 60-14. 0L 500 HP Transmission: Allison 4500 rds Automatic"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "mpn": "HW2058",
+              "image": "http://mabo.ca/Upload/79/19a0cde7-d464-4bd5-ac5b-c8e8f2642549.JPG",
+              "name": "Western Star 2017 Dramis",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "-Mark: Western Star -Year: 2017 -Model: Dramis 4800/4900 Chassis -Motor: DDC 60-14. 0L 500HP 1550 LB / FT -Transmission: Allison 4500 rds Automatic -Front Axle: MFS -20-133A 22,000 -Rear Axle: RS-23-160 23,000 # R Series Single -Ratio: 3.91 -Suspension: Airliner 23,000 -Wheelbase: 7625mm (300inch) -Front Tire: Michelin XZY-3 425 / 65R22. 5 20Ply Radial -Rear Tire: Michelin XDN2 11R22. 5 14 Ply Radial -Sleeper: No",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camion Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13020?category=transport-trucks&subcategory=new-truck&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camion Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Western Star 2019 4900SB",
+          "description": "Moteur : DD16 15,6 L 600 Hp, 2080 Tp",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+              "og:image": "http://mabo.ca/Upload/79/b9de0870-9957-4b6d-af84-5579217f51c4.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Western Star 2019 4900SB",
+              "og:description": "Moteur : DD16 15,6 L 600 Hp, 2080 Tp"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "image": "http://mabo.ca/Upload/79/b9de0870-9957-4b6d-af84-5579217f51c4.JPG",
+              "name": "Western Star 2019 4900SB",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "Marque : Western Star -Année : 2019 -Model : 4900SB -Moteur : Detoir DD16 15,6 L 600Hp, 2080 Tp -Transmission : Eaton RTLO-18918B Essieux avant : MFS-16-143A 16,000# Essieux arrière: RT-46-164 46,000# Suspension : Airliner 46,000 lbs Wheelbase: 244'' Pneus avants: XZY-3 385/65R22.5 Pneus arrières: X Works XDY 11R24.5 Sleeper : 54''",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camion Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13389?category=transport-trucks&subcategory=new-truck&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camion Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Western Star 4900SB",
+          "description": "Western Star 4900SB 2019 Moteur : Detroit DD16 15,6 L 600Hp 2080Tp Transmission : Eaton RTLO-18918B",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+              "og:image": "http://mabo.ca/Upload/79/d29cbd63-8c24-4f01-94a3-3c27d67f93ce.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Western Star 4900SB",
+              "og:description": "Western Star 4900SB 2019 Moteur : Detroit DD16 15,6 L 600Hp 2080Tp Transmission : Eaton RTLO-18918B"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "brand": "Western Star",
+              "mpn": "KP2305",
+              "image": "http://mabo.ca/Upload/79/d29cbd63-8c24-4f01-94a3-3c27d67f93ce.JPG",
+              "name": "Western Star 4900SB",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "Pour information supplémentaire, communiquez avec nous au 819-825-8995. -Moteur : Detroit DD16 15,6L 600Hp 2080Tp -Transmission : Eaton RTLO-18918BE -Essieu avant : 14,700 -Essieux arrière : 46,000 -Ratio: 3,91 -Suspension : Neway 252 ADZ 252 52,000 -Wheelbase : 244 -Frame : 5/16 +1/4 -CA : 120 -Fifthwheel : Holland FW0070 Extra capacity -Fuel tanks : 150+150 -Hydraulique tank: 60 -Pneus avant : Michelin XZE2 11R24.5 16 ply -Pneus arrière: Michelin XDS2 11R24.4 16 ply -Roues : Alcoa 24.5 x 8.5 -Sleeper : 54 pouces star light low roof",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camion Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13395?category=transport-trucks&subcategory=new-truck&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camion Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+            "text": "Western Star 4900SF 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      },
+      {
+        "url": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+        "redirected": false,
+        "html": {
+          "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+          "author": "Centre du Camion Mabo inc.",
+          "title": "Western Star 4900SF 2019",
+          "description": "Moteur Cummins X15 565Hp 1850Tp Transmission : RTLO-18918B",
+          "apple-mobile-web-app-title": "Mabo",
+          "application-name": "Mabo"
+        },
+        "alternate": [
+          {
+            "type": "text/html",
+            "hreflang": "fr",
+            "href": "http://mabo.ca/fr/Item"
+          }
+        ],
+        "rdfa": {
+          "@context": {
+            "og": "http://ogp.me/ns#",
+            "fb": "http://ogp.me/ns/fb#",
+            "product": "http://ogp.me/ns/product#"
+          },
+          "@graph": [
+            {
+              "og:type": "website",
+              "og:site_name": "Centre du Camion Mabo inc.",
+              "fb:app_id": "1501127320149157",
+              "og:locale": "en_US",
+              "og:locale:alternate": [
+                "fr_FR",
+                "fr_CA"
+              ],
+              "og:url": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html",
+              "og:image": "http://mabo.ca/Upload/79/00ca3416-456a-44b6-8ec1-fb90d0a52446.JPG",
+              "og:image:type": "image/jpeg",
+              "og:image:width": "600",
+              "og:image:height": "315",
+              "og:title": "Western Star 4900SF 2019",
+              "og:description": "Moteur Cummins X15 565Hp 1850Tp Transmission : RTLO-18918B"
+            }
+          ]
+        },
+        "jsonld": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Centre du Camion Mabo inc.",
+          "url": "http://mabo.ca",
+          "sameAs": [
+            "http://Shop.CompanyShop.ca/86",
+            "https://www.facebook.com/www.mabo.ca"
+          ]
+        },
+        "microdata": {
+          "@graph": [
+            {
+              "@context": {
+                "@vocab": "http://schema.org/"
+              },
+              "@type": "Product",
+              "brand": "Western Star",
+              "mpn": "KP2714",
+              "image": "http://mabo.ca/Upload/79/00ca3416-456a-44b6-8ec1-fb90d0a52446.JPG",
+              "name": "Western Star 4900SF 2019",
+              "offers": {
+                "@type": "Offer",
+                "seller": "Centre du Camion Mabo inc.",
+                "priceCurrency": "CAD"
+              },
+              "description": "Nouveau Western Star 4900SF 2019 en stock. Contactez-nous pour plus d'informations. 819-825-8995 Moteur : Cummins X15 565 Hp Transmission : RTLO-18918B Essieu avant: 16,000 Essieux arrière : 46,000 Ratio : 4,10 Suspension : Neway ADZ 252 52,000 Wheelbase : 220 Fuel tanks : 125+125 split (60/65) Pneus avants : Michelin X Works 315/80R22.5 20 ply Pneus arrières : Michelin XDY 315/80R22.5 20 ply",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "0",
+                "ratingValue": "0.0"
+              }
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/en/Category/All.html",
+              "title": "Categories"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camions de transport"
+            },
+            {
+              "@context": {
+                "@vocab": "http://data-vocabulary.org/"
+              },
+              "@type": "Breadcrumb",
+              "url": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+              "title": "Camion Neuf"
+            }
+          ]
+        },
+        "links": [
+          {
+            "href": "http://mabo.ca/en/CheckOut",
+            "text": "CheckOut",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Facebook",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Tweet",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Google",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Pinterest",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Blogger",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Email",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Digg it",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Stumbleupon",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Delicious",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Language (EN)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/fr/Item/Index/13394?category=transport-trucks&subcategory=new-truck&overridelang=1",
+            "text": "Français",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "English",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Login",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "Welcome",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/Manage",
+            "text": "Account Settings",
+            "download": false,
+            "target": "_blank"
+          },
+          {
+            "href": "https://companyshop.ca/86/MyOrders",
+            "text": "My Orders",
+            "download": false
+          },
+          {
+            "href": "javascript:",
+            "text": "Log Out",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Category",
+            "text": "INVENTORY",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "DEPARTMENTS",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/183",
+            "text": "SALES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/184",
+            "text": "SERVICE",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/185",
+            "text": "PARTS AND ACCESSORIES",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/186",
+            "text": "BODY SHOP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Albums",
+            "text": "CUSTOM CREATIONS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "TEAM",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Val-d%27Or?GroupId=dd1f12be-2679-40ef-955e-5d5ae94451b6",
+            "text": "Val-d'Or",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Team/Rouyn-Noranda?GroupId=8a2fc261-7957-4419-a09f-f8eb668f74e2",
+            "text": "Rouyn-Noranda",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/86/Shop/Jobs",
+            "text": "JOBS",
+            "download": false,
+            "target": "_self"
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#",
+            "text": "CONTACT U.S",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Val-d'or",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/279",
+            "text": "Rouyn-Noranda",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en",
+            "text": "Home",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/en/Category/All.html",
+            "text": "Categories",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camions de transport",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/1332/Category/transport-trucks-new-truck.html",
+            "text": "Camion Neuf",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#Ratings",
+            "text": "0 reviews",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#descriptionTab",
+            "text": "Description",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13394/Products/transport-trucks/new-truck/western-star-4900sf-2019.html#reviewsTab",
+            "text": "Reviews (0)",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13391/Products/transport-trucks/new-truck/freightliner-new-cascadia-2019.html",
+            "text": "Freightliner New Cascadia 2019",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13380/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13382/Products/transport-trucks/new-truck/freightliner-pt126slp.html",
+            "text": "Freightliner PT126SLP",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13389/Products/transport-trucks/new-truck/western-star-2019-4900sb.html",
+            "text": "Western Star 2019 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13395/Products/transport-trucks/new-truck/western-star-4900sb.html",
+            "text": "Western Star 4900SB",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/s/13020/Products/transport-trucks/new-truck/western-star-2017-dramis.html",
+            "text": "Western Star 2017 Dramis",
+            "download": false
+          },
+          {
+            "href": "https://companyshop.ca/",
+            "text": "CompanyShop.ca",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Shop/Index/180",
+            "text": "Contact Us",
+            "download": false
+          },
+          {
+            "href": "http://mabo.ca/en/Legal",
+            "text": "Legal Notice",
+            "download": false
+          }
+        ]
+      }
+    ]
+  }
+]
