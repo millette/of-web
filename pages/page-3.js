@@ -1,5 +1,9 @@
+// npm
 import fetch from "isomorphic-unfetch"
 import Link from "next/link"
+
+// self
+import ProductTeaser from "../components/product-teaser"
 
 const Page3 = ({ json }) => (
   <div>
@@ -11,6 +15,7 @@ const Page3 = ({ json }) => (
       </Link>
       ?
     </p>
+    {json && <ProductTeaser product={json} />}
     <pre>{JSON.stringify(json, null, "  ")}</pre>
   </div>
 )
