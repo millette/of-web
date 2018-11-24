@@ -1,10 +1,14 @@
-import Link from 'next/link'
+import Link from "next/link"
 
-const Page2 = () => (
+export default () => (
   <div>
     <h1>Page 2</h1>
-    <p>Hey there, looking for <Link href='/'><a>home</a></Link>?</p>
+    <p>
+      Hey there, looking for{" "}
+      <Link href="/">
+        <a>home</a>
+      </Link>
+      ?
+    </p>
   </div>
 )
-
-export default Page2
