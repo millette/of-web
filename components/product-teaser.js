@@ -11,7 +11,7 @@ export default ({ product, i }) => (
   <div style={style}>
     <h3>
       {i >= 0 ? (
-        <Link href={`/page-3?q=${i}`} as={`/page-3/${i}`}>
+        <Link prefetch href={`/page-3?q=${i}`} as={`/page-3/${i}`}>
           <a>{product.microdata["@graph"][0].name}</a>
         </Link>
       ) : (
