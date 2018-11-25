@@ -14,7 +14,7 @@ const Page = ({ json: [stuff] }) => {
       <p>{rdfa["og:description"]}</p>
       <p>
         Hey there, looking for{" "}
-        <Link href="/page-2">
+        <Link prefetch href="/page-2">
           <a>page 2</a>
         </Link>
         ?

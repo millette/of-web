@@ -5,7 +5,7 @@ export default () => (
     <h1>Page 2</h1>
     <p>
       Hey there, looking for{" "}
-      <Link href="/">
+      <Link prefetch href="/">
         <a>home</a>
       </Link>
       ?
