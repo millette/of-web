@@ -1,12 +1,15 @@
 // npm
 const fastify = require("fastify")({ logger: { level: "error" } })
-const Next = require("next")
+const nextjs = require("next")
+
+// self
+const mabo = require("./data/mabo.json")
 
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
 fastify.register((fastify, opts, next) => {
-  const app = Next({ dev })
+  const app = nextjs({ dev })
   app
     .prepare()
     .then(() => {
@@ -34,10 +37,24 @@ fastify.register((fastify, opts, next) => {
       })
       */
 
-      fastify.get("/*", (req, reply) => {
-        return app.handleRequest(req.req, reply.res).then(() => {
-          reply.sent = true
-        })
+      fastify.get("/api/mabo", async (req, reply) => {
+        if (req.query.q) {
+          if (mabo[0].products[req.query.q]) {
+            reply.type("application/json")
+            reply.send(mabo[0].products[req.query.q])
+          } else {
+            await app.render404(req.req, reply.res)
+            reply.sent = true
+          }
+          return
+        }
+        reply.type("application/json")
+        reply.send(mabo)
+      })
+
+      fastify.get("/*", async (req, reply) => {
+        await app.handleRequest(req.req, reply.res)
+        reply.sent = true
       })
 
       fastify.setNotFoundHandler((request, reply) => {
