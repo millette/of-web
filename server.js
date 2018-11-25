@@ -16,19 +16,16 @@ fastify.register(async (fastify, opts, next) => {
   const render404 = app.render404.bind(app)
   const prepare = app.prepare.bind(app)
 
+  const handler = (req, reply) =>
+    handleRequest(req.req, reply.res).then(() => {
+      reply.sent = true
+    })
+
   try {
     await prepare()
-    //.then(() => {
     if (dev) {
-      fastify.get("/_next/*", async (req, reply) => {
-        await handleRequest(req.req, reply.res)
-        reply.sent = true
-      })
-
-      fastify.get("/_error/*", async (req, reply) => {
-        await handleRequest(req.req, reply.res)
-        reply.sent = true
-      })
+      fastify.get("/_next/*", handler)
+      fastify.get("/_error/*", handler)
     }
 
     /*
@@ -62,19 +59,14 @@ fastify.register(async (fastify, opts, next) => {
       reply.send(mabo)
     })
 
-    fastify.get("/*", async (req, reply) => {
-      await handleRequest(req.req, reply.res)
-      reply.sent = true
-    })
+    fastify.get("/*", handler)
 
-    fastify.setNotFoundHandler(async (request, reply) => {
-      await render404(request.req, reply.res)
+    fastify.setNotFoundHandler(async (req, reply) => {
+      await render404(req.req, reply.res)
       reply.sent = true
     })
 
     next()
-    // })
-    // .catch(next)
   } catch (e) {
     next(e)
   }
