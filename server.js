@@ -2,6 +2,17 @@
 const { register, listen } = require("fastify")({ logger: { level: "error" } })
 const nextjs = require("next")
 
+/*
+const AsyncLRU = require('async-lru')
+
+const lru = new AsyncLRU({
+  max: 2,
+  load: (key, cb) => {
+    // fs.readFile(key, cb)
+  }
+})
+*/
+
 // self
 const mabo = require("./data/mabo.json")
 
@@ -31,24 +42,26 @@ register((fastify, opts, next) => {
     .then(() => {
       if (dev) {
         get("/_next/*", handler)
+        get("/_error", handler)
         get("/_error/*", handler)
       }
 
-      /*
-      get('/a', (req, reply) => {
-        return render(req.req, reply.res, '/b', req.query)
-          .then(() => {
-            reply.sent = true
-          })
-      })
+      get("/page-3/:q", (req, reply) =>
+        req.params.q
+          ? render(req.req, reply.res, "/page-3", {
+              ...req.params,
+              ...req.query,
+            }).then(() => {
+              reply.sent = true
+            })
+          : send404(req, reply),
+      )
 
-      get('/b', (req, reply) => {
-        return render(req.req, reply.res, '/a', req.query)
-          .then(() => {
-            reply.sent = true
-          })
-      })
-      */
+      get("/page-3", (req, reply) =>
+        req.query.q
+          ? reply.redirect(301, `/page-3/${req.query.q}`)
+          : send404(req, reply),
+      )
 
       get("/api/mabo", (req, reply) => {
         if (!req.query.q) {
