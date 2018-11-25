@@ -36,13 +36,19 @@ const Page3 = ({ product, prev, next }) => (
   </div>
 )
 
-Page3.getInitialProps = async ({ query }) => {
+Page3.getInitialProps = async ({ req, query }) => {
   const { q } = query
   if (!q) {
     return {}
   }
-  const res = await fetch("http://localhost:3000/static/mabo.json")
-  const json = await res.json()
+
+  let json
+  if (req) {
+    json = require("../static/mabo.json")
+  } else {
+    const res = await fetch("/static/mabo.json")
+    json = await res.json()
+  }
   if (!json[0].products[q]) {
     return {}
   }

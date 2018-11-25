@@ -28,10 +28,11 @@ const Page = ({ json: [stuff] }) => {
   )
 }
 
-Page.getInitialProps = async ({ req }) => {
-  const res = await fetch("http://localhost:3000/static/mabo.json")
-  const json = await res.json()
-  return { json }
-}
+Page.getInitialProps = ({ req }) =>
+  req
+    ? { json: require("../static/mabo.json") }
+    : fetch("/static/mabo.json")
+        .then((res) => res.json())
+        .then((json) => ({ json }))
 
 export default Page
