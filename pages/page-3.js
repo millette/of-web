@@ -29,14 +29,14 @@ const Page3 = ({ product, prev, next }) => {
       <ul>
         {prev && (
           <li>
-            <Link prefetch href={`/page-3?q=${prev}`} href={`/page-3/${prev}`}>
+            <Link prefetch href={`/page-3?q=${prev}`} as={`/page-3/${prev}`}>
               <a>prev</a>
             </Link>
           </li>
         )}
         {next && (
           <li>
-            <Link prefetch href={`/page-3?q=${next}`} href={`/page-3/${next}`}>
+            <Link prefetch href={`/page-3?q=${next}`} as={`/page-3/${next}`}>
               <a>next</a>
             </Link>
           </li>
