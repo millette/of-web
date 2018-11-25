@@ -1,17 +1,7 @@
 // npm
-const { register, listen } = require("fastify")({ logger: { level: "error" } })
+const { register, listen } = require("fastify")({ logger: "error" })
 const nextjs = require("next")
-
-/*
-const AsyncLRU = require('async-lru')
-
-const lru = new AsyncLRU({
-  max: 2,
-  load: (key, cb) => {
-    // fs.readFile(key, cb)
-  }
-})
-*/
+const AsyncLRU = require("async-lru")
 
 // self
 const mabo = require("./data/mabo.json")
@@ -25,6 +15,7 @@ register((fastify, opts, next) => {
   const app = nextjs({ dev })
   const handleRequest = app.handleRequest.bind(app)
   const render = app.render.bind(app)
+  const renderToHTML = app.renderToHTML.bind(app)
   const render404 = app.render404.bind(app)
   const prepare = app.prepare.bind(app)
 
@@ -38,24 +29,48 @@ register((fastify, opts, next) => {
       reply.sent = true
     })
 
+  const lru = new AsyncLRU({
+    max: 20,
+    load: (req, reply, path, opts, cb) =>
+      renderToHTML(req.req, reply.res, path, opts)
+        .then((html) => cb(null, html))
+        .catch(cb),
+  })
+
   prepare()
     .then(() => {
       if (dev) {
         get("/_next/*", handler)
-        get("/_error", handler)
-        get("/_error/*", handler)
+        // get("/_error", handler)
+        // get("/_error/*", handler)
       }
 
-      get("/page-3/:q", (req, reply) =>
-        req.params.q
-          ? render(req.req, reply.res, "/page-3", {
+      get("/page-3/:q", (req, reply) => {
+        if (!req.params.q) {
+          return send404(req, reply)
+        }
+
+        lru.get(
+          `/page-3/${req.params.q}`,
+          [
+            req,
+            reply,
+            "/page-3",
+            {
               ...req.params,
               ...req.query,
-            }).then(() => {
-              reply.sent = true
-            })
-          : send404(req, reply),
-      )
+            },
+          ],
+          (err, html) => {
+            if (err) {
+              console.log("ERR:", err)
+              return send404(req, reply)
+            }
+            reply.type("text/html")
+            return reply.send(html)
+          },
+        )
+      })
 
       get("/page-3", (req, reply) =>
         req.query.q
@@ -73,6 +88,17 @@ register((fastify, opts, next) => {
           return reply.send(mabo[0].products[req.query.q])
         }
         return send404(req, reply)
+      })
+
+      get("/", (req, reply) => {
+        lru.get("/", [req, reply, "/", null], (err, html) => {
+          if (err) {
+            console.log("ERR:", err)
+            return send404(req, reply)
+          }
+          reply.type("text/html")
+          return reply.send(html)
+        })
       })
 
       get("/*", handler)
