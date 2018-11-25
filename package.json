@@ -28,6 +28,7 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "async-lru": "^1.1.2",
     "fastify": "^1.13.0",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.2-canary.26",
