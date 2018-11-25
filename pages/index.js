@@ -30,8 +30,8 @@ const Page = ({ json: [stuff] }) => {
 
 Page.getInitialProps = ({ req }) =>
   req
-    ? { json: require("../static/mabo.json") }
-    : fetch("/static/mabo.json")
+    ? { json: require("../data/mabo.json") }
+    : fetch("/api/mabo")
         .then((res) => res.json())
         .then((json) => ({ json }))
 
