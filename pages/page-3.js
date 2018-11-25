@@ -5,18 +5,34 @@ import Link from "next/link"
 // self
 import ProductTeaser from "../components/product-teaser"
 
-const Page3 = ({ json }) => (
+const Page3 = ({ product, prev, next }) => (
   <div>
-    <h1>Page 3</h1>
+    <h1>{product.microdata["@graph"][0].name}</h1>
     <p>
       Hey there, looking for{" "}
-      <Link href="/">
+      <Link prefetch href="/">
         <a>home</a>
       </Link>
       ?
     </p>
-    {json && <ProductTeaser product={json} />}
-    <pre>{JSON.stringify(json, null, "  ")}</pre>
+    <ol>
+      {prev && (
+        <li>
+          <Link prefetch href={`/page-3?q=${prev}`}>
+            <a>prev</a>
+          </Link>
+        </li>
+      )}
+      {next && (
+        <li>
+          <Link prefetch href={`/page-3?q=${next}`}>
+            <a>next</a>
+          </Link>
+        </li>
+      )}
+    </ol>
+    {product && <ProductTeaser product={product} />}
+    <pre>{JSON.stringify(product, null, "  ")}</pre>
   </div>
 )
 
@@ -30,7 +46,17 @@ Page3.getInitialProps = async ({ query }) => {
   if (!json[0].products[q]) {
     return {}
   }
-  return { json: json[0].products[q] }
+
+  const len = json[0].products.length
+  const ret = { product: json[0].products[q] }
+  const n = parseInt(q, 10)
+  if (n - 1 >= 0) {
+    ret.prev = String(n - 1)
+  }
+  if (n + 1 < len) {
+    ret.next = String(n + 1)
+  }
+  return ret
 }
 
 export default Page3
