@@ -10,12 +10,20 @@ const dev = process.env.NODE_ENV !== "production"
 
 fastify.register((fastify, opts, next) => {
   const app = nextjs({ dev })
+
+  const { handleRequest, render, render404 } = app
   app
     .prepare()
     .then(() => {
       if (dev) {
         fastify.get("/_next/*", (req, reply) => {
-          return app.handleRequest(req.req, reply.res).then(() => {
+          return handleRequest(req.req, reply.res).then(() => {
+            reply.sent = true
+          })
+        })
+
+        fastify.get("/_error/*", (req, reply) => {
+          return handleRequest(req.req, reply.res).then(() => {
             reply.sent = true
           })
         })
@@ -23,14 +31,14 @@ fastify.register((fastify, opts, next) => {
 
       /*
       fastify.get('/a', (req, reply) => {
-        return app.render(req.req, reply.res, '/b', req.query)
+        return render(req.req, reply.res, '/b', req.query)
           .then(() => {
             reply.sent = true
           })
       })
 
       fastify.get('/b', (req, reply) => {
-        return app.render(req.req, reply.res, '/a', req.query)
+        return render(req.req, reply.res, '/a', req.query)
           .then(() => {
             reply.sent = true
           })
@@ -43,7 +51,7 @@ fastify.register((fastify, opts, next) => {
             reply.type("application/json")
             reply.send(mabo[0].products[req.query.q])
           } else {
-            await app.render404(req.req, reply.res)
+            await render404(req.req, reply.res)
             reply.sent = true
           }
           return
@@ -53,19 +61,18 @@ fastify.register((fastify, opts, next) => {
       })
 
       fastify.get("/*", async (req, reply) => {
-        await app.handleRequest(req.req, reply.res)
+        await handleRequest(req.req, reply.res)
         reply.sent = true
       })
 
-      fastify.setNotFoundHandler((request, reply) => {
-        return app.render404(request.req, reply.res).then(() => {
-          reply.sent = true
-        })
+      fastify.setNotFoundHandler(async (request, reply) => {
+        await render404(request.req, reply.res)
+        reply.sent = true
       })
 
       next()
     })
-    .catch((err) => next(err))
+    .catch(next)
 })
 
 fastify.listen(port, (err) => {
