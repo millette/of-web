@@ -19,14 +19,7 @@ export default ({ product, i }) => (
       )}
     </h3>
     <p>{product.microdata["@graph"][0].description}</p>
-    {!(i >= 0) && (
-      <img
-        src={product.microdata["@graph"][0].image.replace(
-          "http://mabo.ca/Upload/",
-          "https://companyshop.ca/Upload/",
-        )}
-      />
-    )}
+    {!(i >= 0) && <img src={product.microdata["@graph"][0].image} />}
     <p>{product.url}</p>
   </div>
 )

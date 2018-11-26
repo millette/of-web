@@ -6,6 +6,13 @@ const AsyncLRU = require("async-lru")
 // self
 const mabo = require("./data/mabo.json")
 
+mabo[0].products = mabo[0].products.map((product) => {
+  product.microdata["@graph"][0].image = product.microdata[
+    "@graph"
+  ][0].image.replace("http://mabo.ca/Upload/", "https://companyshop.ca/Upload/")
+  return product
+})
+
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
