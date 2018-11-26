@@ -44,7 +44,7 @@ Page3.getInitialProps = async ({ req, query }) => {
   try {
     const q = query.q
     const { product, nProducts } = await fetch(
-      baseUrl(req, `api/mabo?q=${q}`),
+      baseUrl(req, `api/mabo/${q}`),
     ).then((res) => res.json())
 
     return {
