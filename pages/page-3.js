@@ -54,16 +54,12 @@ Page3.getInitialProps = async ({ req, query }) => {
     return {}
   }
   try {
-    let json
-    if (req) {
-      const full = require("../data/mabo.json")
-      if (full[0].products[q]) {
-        json = full[0].products[q]
-      }
-    } else {
-      const res = await fetch(`/api/mabo?q=${q}`)
-      json = await res.json()
-    }
+    const encrypted = req.socket.encrypted || req.connection.encrypted
+    const u = req
+      ? `${encrypted ? "https" : "http"}://${req.hostname}/api/mabo?q=${q}`
+      : `/api/mabo?q=${q}`
+    const res = await fetch(u)
+    const json = await res.json()
 
     if (!json) {
       return {}
