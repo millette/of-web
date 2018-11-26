@@ -6,15 +6,19 @@ import Link from "next/link"
 import { Catalog, StoreInfo } from "../components"
 import { baseUrl } from "../utils"
 
-const Page = ({ json: [stuff] }) => {
-  const rdfa = stuff.data.rdfa["@graph"][0]
-  return (
-    <div>
-      <StoreInfo rdfa={rdfa} url={stuff.data.url} />
-      <Catalog products={stuff.products} />
-    </div>
-  )
-}
+const Page = ({
+  json: [
+    {
+      data: { url, rdfa },
+      products,
+    },
+  ],
+}) => (
+  <div>
+    <StoreInfo rdfa={rdfa["@graph"][0]} url={url} />
+    <Catalog products={products} />
+  </div>
+)
 
 Page.getInitialProps = ({ req }) =>
   fetch(baseUrl(req, "api/mabo"))

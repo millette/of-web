@@ -6,6 +6,7 @@ const AsyncLRU = require("async-lru")
 // self
 const mabo = require("./data/mabo.json")
 
+// TODO: fix in the scraper instead
 mabo[0].products = mabo[0].products.map((product) => {
   product.microdata["@graph"][0].image = product.microdata[
     "@graph"

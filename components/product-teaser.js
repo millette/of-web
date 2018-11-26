@@ -7,19 +7,22 @@ const style = {
   padding: "1em",
 }
 
-export default ({ product, i }) => (
-  <div style={style}>
-    <h3>
-      {i >= 0 ? (
-        <Link prefetch href={`/item?q=${i}`} as={`/item/${i}`}>
-          <a>{product.microdata["@graph"][0].name}</a>
-        </Link>
-      ) : (
-        product.microdata["@graph"][0].name
-      )}
-    </h3>
-    <p>{product.microdata["@graph"][0].description}</p>
-    {!(i >= 0) && <img src={product.microdata["@graph"][0].image} />}
-    <p>{product.url}</p>
-  </div>
-)
+export default ({ product: { url, microdata }, i }) => {
+  const { name, description, image } = microdata["@graph"][0]
+  return (
+    <div style={style}>
+      <h3>
+        {i >= 0 ? (
+          <Link prefetch href={`/item?q=${i}`} as={`/item/${i}`}>
+            <a>{name}</a>
+          </Link>
+        ) : (
+          name
+        )}
+      </h3>
+      <p>{description}</p>
+      {!(i >= 0) && <img src={image} />}
+      <p>{url}</p>
+    </div>
+  )
+}
