@@ -21,6 +21,14 @@ register(require("fastify-compress"))
 register(require("fastify-response-time"))
 
 register((fastify, opts, next) => {
+  fastify.addSchema({
+    $id: "itemq",
+    type: "object",
+    properties: {
+      q: { type: "integer" },
+    },
+  })
+
   const get = fastify.get.bind(fastify)
   const setNotFoundHandler = fastify.setNotFoundHandler.bind(fastify)
   const app = nextjs({ dev })
@@ -67,37 +75,40 @@ register((fastify, opts, next) => {
         // get("/_error/*", handler)
       }
 
-      get("/item/:q", (req, reply) => {
-        // FIXME: use schema validation (fastify) instead
-        if (!req.params.q) {
+      get("/item/:q", { schema: { params: "itemq#" } }, (req, reply) => {
+        if (!mabo[0].products[req.params.q]) {
           return send404(req, reply)
         }
-
-        return cacheSend(`/item/${req.params.q}`, req, reply, "/item", {
-          ...req.params,
-          ...req.query,
+        cacheSend(`/item/${req.params.q}`, req, reply, "/item", {
+          q: String(req.params.q),
         })
       })
 
-      get("/item", (req, reply) =>
-        req.query.q
-          ? reply.redirect(301, `/item/${req.query.q}`)
-          : send404(req, reply),
+      get(
+        "/item",
+        { schema: { querystring: { q: { type: "integer" } } } },
+        (req, reply) => {
+          if (req.query.q === undefined) {
+            return send404(req, reply)
+          }
+          reply.redirect(301, `/item/${req.query.q}`)
+        },
       )
 
+      get("/api/mabo/:q", { schema: { params: "itemq#" } }, (req, reply) => {
+        if (!mabo[0].products[req.params.q]) {
+          return send404(req, reply)
+        }
+        reply.type("application/json")
+        return reply.send({
+          product: mabo[0].products[req.params.q],
+          nProducts: mabo[0].products.length,
+        })
+      })
+
       get("/api/mabo", (req, reply) => {
-        if (!req.query.q) {
-          reply.type("application/json")
-          return reply.send(mabo)
-        }
-        if (mabo[0].products[req.query.q]) {
-          reply.type("application/json")
-          return reply.send({
-            product: mabo[0].products[req.query.q],
-            nProducts: mabo[0].products.length,
-          })
-        }
-        return send404(req, reply)
+        reply.type("application/json")
+        return reply.send(mabo)
       })
 
       get("/", cacheSend.bind(null, "/"))
