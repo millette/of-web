@@ -41,10 +41,12 @@ register((fastify, opts, next) => {
 
   const lru = new AsyncLRU({
     max: 20,
-    load: (req, reply, path, opts, cb) =>
+    load: (req, reply, path, opts, cb) => {
+      const ok = cb.bind(null, null)
       renderToHTML(req.req, reply.res, path, opts)
-        .then((html) => cb(null, html))
-        .catch(cb),
+        .then(ok)
+        .catch(cb)
+    },
   })
 
   const cacheSend = (key, req, reply, path, opts) =>
@@ -64,21 +66,21 @@ register((fastify, opts, next) => {
         // get("/_error/*", handler)
       }
 
-      get("/page-3/:q", (req, reply) => {
+      get("/item/:q", (req, reply) => {
         // FIXME: use schema validation (fastify) instead
         if (!req.params.q) {
           return send404(req, reply)
         }
 
-        return cacheSend(`/page-3/${req.params.q}`, req, reply, "/page-3", {
+        return cacheSend(`/item/${req.params.q}`, req, reply, "/item", {
           ...req.params,
           ...req.query,
         })
       })
 
-      get("/page-3", (req, reply) =>
+      get("/item", (req, reply) =>
         req.query.q
-          ? reply.redirect(301, `/page-3/${req.query.q}`)
+          ? reply.redirect(301, `/item/${req.query.q}`)
           : send404(req, reply),
       )
 

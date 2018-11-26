@@ -11,7 +11,7 @@ const Page3 = ({ product, n, nProducts, prev, next }) => {
     return (
       <div>
         Nothing to see.{" "}
-        <Link href="/">
+        <Link prefetch href="/">
           <a>Go home</a>
         </Link>
       </div>

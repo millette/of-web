@@ -8,14 +8,14 @@ export default ({ n, nProducts }) => {
     <ul>
       {prev && (
         <li>
-          <Link prefetch href={`/page-3?q=${prev}`} as={`/page-3/${prev}`}>
+          <Link prefetch href={`/item?q=${prev}`} as={`/item/${prev}`}>
             <a>prev</a>
           </Link>
         </li>
       )}
       {next && (
         <li>
-          <Link prefetch href={`/page-3?q=${next}`} as={`/page-3/${next}`}>
+          <Link prefetch href={`/item?q=${next}`} as={`/item/${next}`}>
             <a>next</a>
           </Link>
         </li>
