@@ -47,6 +47,15 @@ register((fastify, opts, next) => {
         .catch(cb),
   })
 
+  const cacheSend = (key, req, reply, path, opts) =>
+    new Promise((resolve, reject) => {
+      lru.get(key, [req, reply, path || key, opts], (err, html) => {
+        if (err) return reject(err)
+        reply.type("text/html")
+        resolve(reply.send(html))
+      })
+    })
+
   prepare()
     .then(() => {
       if (dev) {
@@ -56,30 +65,15 @@ register((fastify, opts, next) => {
       }
 
       get("/page-3/:q", (req, reply) => {
+        // FIXME: use schema validation (fastify) instead
         if (!req.params.q) {
           return send404(req, reply)
         }
 
-        lru.get(
-          `/page-3/${req.params.q}`,
-          [
-            req,
-            reply,
-            "/page-3",
-            {
-              ...req.params,
-              ...req.query,
-            },
-          ],
-          (err, html) => {
-            if (err) {
-              console.log("ERR:", err)
-              return send404(req, reply)
-            }
-            reply.type("text/html")
-            return reply.send(html)
-          },
-        )
+        return cacheSend(`/page-3/${req.params.q}`, req, reply, "/page-3", {
+          ...req.params,
+          ...req.query,
+        })
       })
 
       get("/page-3", (req, reply) =>
@@ -103,17 +97,7 @@ register((fastify, opts, next) => {
         return send404(req, reply)
       })
 
-      get("/", (req, reply) => {
-        lru.get("/", [req, reply, "/", null], (err, html) => {
-          if (err) {
-            console.log("ERR:", err)
-            return send404(req, reply)
-          }
-          reply.type("text/html")
-          return reply.send(html)
-        })
-      })
-
+      get("/", cacheSend.bind(null, "/"))
       get("/*", handler)
       setNotFoundHandler(send404)
       next()
