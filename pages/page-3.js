@@ -54,9 +54,10 @@ Page3.getInitialProps = async ({ req, query }) => {
     return {}
   }
   try {
-    const encrypted = req.socket.encrypted || req.connection.encrypted
     const u = req
-      ? `${encrypted ? "https" : "http"}://${req.hostname}/api/mabo?q=${q}`
+      ? `${
+          req.socket.encrypted || req.connection.encrypted ? "https" : "http"
+        }://${req.hostname}/api/mabo?q=${q}`
       : `/api/mabo?q=${q}`
     const res = await fetch(u)
     const json = await res.json()

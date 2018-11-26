@@ -28,15 +28,15 @@ const Page = ({ json: [stuff] }) => {
   )
 }
 
-Page.getInitialProps = ({ req }) => {
-  const encrypted = req.socket.encrypted || req.connection.encrypted
-  return fetch(
+Page.getInitialProps = ({ req }) =>
+  fetch(
     req
-      ? `${encrypted ? "https" : "http"}://${req.hostname}/api/mabo`
+      ? `${
+          req.socket.encrypted || req.connection.encrypted ? "https" : "http"
+        }://${req.hostname}/api/mabo`
       : "/api/mabo",
   )
     .then((res) => res.json())
     .then((json) => ({ json }))
-}
 
 export default Page
