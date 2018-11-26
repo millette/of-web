@@ -3,10 +3,10 @@ import fetch from "isomorphic-unfetch"
 import Link from "next/link"
 
 // self
-import ProductTeaser from "../components/product-teaser"
-import baseUrl from "../utils/base-url"
+import { ProductTeaser, Pager } from "../components"
+import { baseUrl } from "../utils"
 
-const Page3 = ({ product, prev, next }) => {
+const Page3 = ({ product, n, nProducts, prev, next }) => {
   if (!product) {
     return (
       <div>
@@ -20,6 +20,9 @@ const Page3 = ({ product, prev, next }) => {
   return (
     <div>
       <h1>{product.microdata["@graph"][0].name}</h1>
+      <h2>
+        #{n} of {nProducts}
+      </h2>
       <p>
         Hey there, looking for{" "}
         <Link prefetch href="/">
@@ -27,50 +30,28 @@ const Page3 = ({ product, prev, next }) => {
         </Link>
         ?
       </p>
-      <ul>
-        {prev && (
-          <li>
-            <Link prefetch href={`/page-3?q=${prev}`} as={`/page-3/${prev}`}>
-              <a>prev</a>
-            </Link>
-          </li>
-        )}
-        {next && (
-          <li>
-            <Link prefetch href={`/page-3?q=${next}`} as={`/page-3/${next}`}>
-              <a>next</a>
-            </Link>
-          </li>
-        )}
-      </ul>
-      {product && <ProductTeaser product={product} />}
+      <Pager n={n - 1} nProducts={nProducts} />
+      <ProductTeaser product={product} />
       <pre>{JSON.stringify(product, null, "  ")}</pre>
     </div>
   )
 }
 
 Page3.getInitialProps = async ({ req, query }) => {
-  const { q } = query
-  if (!q) {
+  if (!query.q) {
     return {}
   }
   try {
-    const res = await fetch(baseUrl(req, `api/mabo?q=${q}`))
-    const json = await res.json()
+    const q = query.q
+    const { product, nProducts } = await fetch(
+      baseUrl(req, `api/mabo?q=${q}`),
+    ).then((res) => res.json())
 
-    if (!json) {
-      return {}
+    return {
+      n: parseInt(q, 10) + 1,
+      nProducts,
+      product,
     }
-    const n = parseInt(q, 10)
-    const ret = {
-      product: json,
-      next: String(n + 1),
-    }
-
-    if (n - 1 >= 0) {
-      ret.prev = String(n - 1)
-    }
-    return ret
   } catch (e) {
     return {}
   }

@@ -95,7 +95,10 @@ register((fastify, opts, next) => {
         }
         if (mabo[0].products[req.query.q]) {
           reply.type("application/json")
-          return reply.send(mabo[0].products[req.query.q])
+          return reply.send({
+            product: mabo[0].products[req.query.q],
+            nProducts: mabo[0].products.length,
+          })
         }
         return send404(req, reply)
       })
