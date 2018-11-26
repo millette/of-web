@@ -1,5 +1,5 @@
 // npm
-const { register, listen } = require("fastify")({ logger: "error" })
+const { register, listen } = require("fastify")()
 const nextjs = require("next")
 const AsyncLRU = require("async-lru")
 
@@ -8,6 +8,9 @@ const mabo = require("./data/mabo.json")
 
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
+
+register(require("fastify-compress"))
+register(require("fastify-response-time"))
 
 register((fastify, opts, next) => {
   const get = fastify.get.bind(fastify)
