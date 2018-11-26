@@ -4,6 +4,7 @@ import Link from "next/link"
 
 // self
 import ProductTeaser from "../components/product-teaser"
+import baseUrl from "../utils/base-url"
 
 const Page = ({ json: [stuff] }) => {
   const rdfa = stuff.data.rdfa["@graph"][0]
@@ -29,13 +30,7 @@ const Page = ({ json: [stuff] }) => {
 }
 
 Page.getInitialProps = ({ req }) =>
-  fetch(
-    req
-      ? `${
-          req.socket.encrypted || req.connection.encrypted ? "https" : "http"
-        }://${req.hostname}/api/mabo`
-      : "/api/mabo",
-  )
+  fetch(baseUrl(req, "api/mabo"))
     .then((res) => res.json())
     .then((json) => ({ json }))
 

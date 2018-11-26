@@ -4,6 +4,7 @@ import Link from "next/link"
 
 // self
 import ProductTeaser from "../components/product-teaser"
+import baseUrl from "../utils/base-url"
 
 const Page3 = ({ product, prev, next }) => {
   if (!product) {
@@ -54,12 +55,7 @@ Page3.getInitialProps = async ({ req, query }) => {
     return {}
   }
   try {
-    const u = req
-      ? `${
-          req.socket.encrypted || req.connection.encrypted ? "https" : "http"
-        }://${req.hostname}/api/mabo?q=${q}`
-      : `/api/mabo?q=${q}`
-    const res = await fetch(u)
+    const res = await fetch(baseUrl(req, `api/mabo?q=${q}`))
     const json = await res.json()
 
     if (!json) {
