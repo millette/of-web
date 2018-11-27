@@ -16,6 +16,7 @@ export default class MyDocument extends Document {
             name="viewport"
             content="initial-scale=1.0, width=device-width, shrink-to-fit=no"
           />
+          <link rel="stylesheet" href="/bulma.css" />
         </Head>
         <body>
           <Main />
