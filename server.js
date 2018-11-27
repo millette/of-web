@@ -69,16 +69,12 @@ register((fastify, opts, next) => {
 
   prepare()
     .then(() => {
-      if (dev) {
-        get("/_next/*", handler)
-        // get("/_error", handler)
-        // get("/_error/*", handler)
-      }
+      // get("/_error", handler)
+      // get("/_error/*", handler)
+      if (dev) get("/_next/*", handler)
 
       get("/item/:q", { schema: { params: "itemq#" } }, (req, reply) => {
-        if (!mabo[0].products[req.params.q]) {
-          return send404(req, reply)
-        }
+        if (!mabo[0].products[req.params.q]) return send404(req, reply)
         cacheSend(`/item/${req.params.q}`, req, reply, "/item", {
           q: String(req.params.q),
         })
@@ -88,17 +84,13 @@ register((fastify, opts, next) => {
         "/item",
         { schema: { querystring: { q: { type: "integer" } } } },
         (req, reply) => {
-          if (req.query.q === undefined) {
-            return send404(req, reply)
-          }
+          if (req.query.q === undefined) return send404(req, reply)
           reply.redirect(301, `/item/${req.query.q}`)
         },
       )
 
       get("/api/mabo/:q", { schema: { params: "itemq#" } }, (req, reply) => {
-        if (!mabo[0].products[req.params.q]) {
-          return send404(req, reply)
-        }
+        if (!mabo[0].products[req.params.q]) return send404(req, reply)
         reply.type("application/json")
         return reply.send({
           product: mabo[0].products[req.params.q],

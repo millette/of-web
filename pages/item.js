@@ -6,17 +6,17 @@ import Link from "next/link"
 import { ProductTeaser, Pager } from "../components"
 import { baseUrl } from "../utils"
 
+const Nothing = () => (
+  <div>
+    Nothing to see.{" "}
+    <Link prefetch href="/">
+      <a>Go home</a>
+    </Link>
+  </div>
+)
+
 const Page3 = ({ product, n, nProducts, prev, next }) => {
-  if (!product) {
-    return (
-      <div>
-        Nothing to see.{" "}
-        <Link prefetch href="/">
-          <a>Go home</a>
-        </Link>
-      </div>
-    )
-  }
+  if (!product) return <Nothing />
   return (
     <div>
       <h1>{product.microdata["@graph"][0].name}</h1>
@@ -38,9 +38,7 @@ const Page3 = ({ product, n, nProducts, prev, next }) => {
 }
 
 Page3.getInitialProps = async ({ req, query }) => {
-  if (!query.q) {
-    return {}
-  }
+  if (!query.q) return {}
   try {
     const q = query.q
     const { product, nProducts } = await fetch(
