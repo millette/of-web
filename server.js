@@ -19,17 +19,22 @@ mabo[0].products = mabo[0].products.map((product) => {
 })
 
 const bulmaPath = require.resolve("bulma/css/bulma.min.css")
-const bulma = readFileSync(bulmaPath) + "\npre { white-space: pre-wrap; }"
+const bulma =
+  readFileSync(bulmaPath, "utf-8") + "\npre { white-space: pre-wrap; }"
 
 const favicon = readFileSync("favicon.ico")
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
-register(require("fastify-compress"))
-register(require("fastify-response-time"))
-register(require("fastify-caching"))
-
 register((fastify, opts, next) => {
+  if (dev) {
+    fastify.decorateReply("etag", function() {})
+  } else {
+    register(require("fastify-compress"))
+    register(require("fastify-response-time"))
+    register(require("fastify-caching"))
+  }
+
   fastify.addSchema({
     $id: "itemq",
     type: "object",
@@ -58,7 +63,7 @@ register((fastify, opts, next) => {
     })
 
   const lru = new AsyncLRU({
-    max: 20,
+    max: dev ? 1 : 20,
     load: (req, reply, path, opts, cb) => {
       const ok = cb.bind(null, null)
       renderToHTML(req.req, reply.res, path, opts)
