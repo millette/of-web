@@ -18,6 +18,9 @@ mabo[0].products = mabo[0].products.map((product) => {
   return product
 })
 
+const bulmaPath = require.resolve("bulma/css/bulma.min.css")
+const bulma = readFileSync(bulmaPath) + "\npre { white-space: pre-wrap; }"
+
 const favicon = readFileSync("favicon.ico")
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
@@ -109,6 +112,11 @@ register((fastify, opts, next) => {
         reply.type("image/x-icon")
         reply.etag(`${req.raw.url}-${name}-v${version}`)
         return reply.send(favicon)
+      })
+      get("/bulma.css", (req, reply) => {
+        reply.type("text/css")
+        reply.etag(`${req.raw.url}-${name}-v${version}`)
+        return reply.send(bulma)
       })
       get("/", cacheSend.bind(null, "/"))
       get("/*", handler)
