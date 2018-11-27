@@ -1,11 +1,14 @@
+// core
+const { readFileSync } = require("fs")
+
 // npm
 const { register, listen } = require("fastify")()
 const nextjs = require("next")
 const AsyncLRU = require("async-lru")
 
 // self
-const mabo = require("./data/mabo.json")
 const { name, version } = require("./package.json")
+const mabo = require("./data/mabo.json")
 
 // TODO: fix in the scraper instead
 mabo[0].products = mabo[0].products.map((product) => {
@@ -15,6 +18,7 @@ mabo[0].products = mabo[0].products.map((product) => {
   return product
 })
 
+const favicon = readFileSync("favicon.ico")
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
@@ -100,6 +104,11 @@ register((fastify, opts, next) => {
         reply.type("application/json")
         reply.etag(`${req.raw.url}-${name}-v${version}`)
         return reply.send(mabo)
+      })
+      get("/favicon.ico", (req, reply) => {
+        reply.type("image/x-icon")
+        reply.etag(`${req.raw.url}-${name}-v${version}`)
+        return reply.send(favicon)
       })
       get("/", cacheSend.bind(null, "/"))
       get("/*", handler)
