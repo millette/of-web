@@ -5,6 +5,7 @@ const AsyncLRU = require("async-lru")
 
 // self
 const mabo = require("./data/mabo.json")
+const { name, version } = require("./package.json")
 
 // TODO: fix in the scraper instead
 mabo[0].products = mabo[0].products.map((product) => {
@@ -19,6 +20,7 @@ const dev = process.env.NODE_ENV !== "production"
 
 register(require("fastify-compress"))
 register(require("fastify-response-time"))
+register(require("fastify-caching"))
 
 register((fastify, opts, next) => {
   fastify.addSchema({
@@ -63,6 +65,7 @@ register((fastify, opts, next) => {
       lru.get(key, [req, reply, path || key, opts], (err, html) => {
         if (err) return reject(err)
         reply.type("text/html")
+        reply.etag(`${key}-${name}-v${version}`)
         resolve(reply.send(html))
       })
     })
@@ -87,6 +90,7 @@ register((fastify, opts, next) => {
       get("/api/mabo/:q", { schema: { params: "itemq#" } }, (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         reply.type("application/json")
+        reply.etag(`${req.raw.url}-${name}-v${version}`)
         return reply.send({
           product: mabo[0].products[req.params.q],
           nProducts: mabo[0].products.length,
@@ -94,6 +98,7 @@ register((fastify, opts, next) => {
       })
       get("/api/mabo", (req, reply) => {
         reply.type("application/json")
+        reply.etag(`${req.raw.url}-${name}-v${version}`)
         return reply.send(mabo)
       })
       get("/", cacheSend.bind(null, "/"))
