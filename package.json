@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "async-lru": "^1.1.2",
+    "bulma": "^0.7.2",
     "fastify": "^1.13.0",
     "fastify-caching": "^3.0.0",
     "fastify-compress": "^0.7.1",
