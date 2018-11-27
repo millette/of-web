@@ -14,10 +14,10 @@ const Page = ({
     },
   ],
 }) => (
-  <div>
+  <>
     <StoreInfo rdfa={rdfa["@graph"][0]} url={url} />
     <Catalog products={products} />
-  </div>
+  </>
 )
 
 Page.getInitialProps = ({ req }) =>

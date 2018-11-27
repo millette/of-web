@@ -6,6 +6,7 @@ import Link from "next/link"
 import { ProductTeaser, Pager } from "../components"
 import { baseUrl } from "../utils"
 
+/*
 const Nothing = () => (
   <section className="section">
     <div className="container">
@@ -16,34 +17,54 @@ const Nothing = () => (
     </div>
   </section>
 )
+*/
+
+const style = { marginTop: "6px" }
 
 const Page3 = ({ product, n, nProducts, prev, next }) => {
-  if (!product) return <Nothing />
+  // if (!product) return <Nothing />
   return (
-    <section className="section">
-      <div className="container">
-        <h1 className="title is-1">{product.microdata["@graph"][0].name}</h1>
-        <h2 className="subtitle is-3">
-          #{n} of {nProducts}
-        </h2>
-        <div className="columns">
-          <div className="column is-narrow">
-            <Pager n={n - 1} nProducts={nProducts} />
+    <>
+      <section className="section">
+        <div className="container">
+          <h1 className="title">{product.microdata["@graph"][0].name}</h1>
+          <h2 className="subtitle">
+            #{n} of {nProducts}
+          </h2>
+          <div className="columns">
+            <div className="column is-narrow">
+              <Pager n={n - 1} nProducts={nProducts} />
+            </div>
+            <div className="column">
+              <p style={style}>
+                Hey there, looking for{" "}
+                <Link prefetch href="/">
+                  <a>
+                    <b>⌂ home</b>
+                  </a>
+                </Link>{" "}
+                ?
+              </p>
+            </div>
           </div>
-          <div className="column">
-            <p>
-              Hey there, looking for{" "}
-              <Link prefetch href="/">
-                <a>home</a>
-              </Link>
-              ?
-            </p>
-          </div>
+          <ProductTeaser product={product} />
         </div>
-        <ProductTeaser product={product} />
-        <pre>{JSON.stringify(product, null, "  ")}</pre>
-      </div>
-    </section>
+      </section>
+      <section className="section">
+        <div className="container">
+          <h3 className="title is-5">microdata</h3>
+          <pre>
+            {JSON.stringify(product.microdata["@graph"][0], null, "  ")}
+          </pre>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <h3 className="title is-5">json</h3>
+          <pre>{JSON.stringify(product, null, "  ")}</pre>
+        </div>
+      </section>
+    </>
   )
 }
 

@@ -5,7 +5,7 @@ export default ({ rdfa, url }) => (
         <div className="container">
           <h1 className="title">{rdfa["og:site_name"]}</h1>
           <h2 className="subtitle">{url}</h2>
-          <p>{rdfa["og:description"]}</p>
+          <p className="content is-medium">{rdfa["og:description"]}</p>
         </div>
       </div>
     </section>
