@@ -1,6 +1,17 @@
 // npm
 import Link from "next/link"
 
+const PagerLink = ({ type, page }) =>
+  page ? (
+    <Link prefetch href={`/item?q=${page}`} as={`/item/${page}`}>
+      <a className={`pagination-${type}`}>{type}</a>
+    </Link>
+  ) : (
+    <a disabled className={`pagination-${type}`}>
+      {type}
+    </a>
+  )
+
 export default ({ n, nProducts }) => {
   const prev = n - 1 >= 0 && String(n - 1)
   const next = n + 1 < nProducts && String(n + 1)
@@ -10,16 +21,8 @@ export default ({ n, nProducts }) => {
       role="navigation"
       aria-label="pagination"
     >
-      {prev && (
-        <Link prefetch href={`/item?q=${prev}`} as={`/item/${prev}`}>
-          <a className="pagination-previous">prev</a>
-        </Link>
-      )}
-      {next && (
-        <Link prefetch href={`/item?q=${next}`} as={`/item/${next}`}>
-          <a className="pagination-next">next</a>
-        </Link>
-      )}
+      <PagerLink type="previous" page={prev} />
+      <PagerLink type="next" page={next} />
     </nav>
   )
 }
