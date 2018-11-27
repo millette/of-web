@@ -69,17 +69,13 @@ register((fastify, opts, next) => {
 
   prepare()
     .then(() => {
-      // get("/_error", handler)
-      // get("/_error/*", handler)
       if (dev) get("/_next/*", handler)
-
       get("/item/:q", { schema: { params: "itemq#" } }, (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         cacheSend(`/item/${req.params.q}`, req, reply, "/item", {
           q: String(req.params.q),
         })
       })
-
       get(
         "/item",
         { schema: { querystring: { q: { type: "integer" } } } },
@@ -88,7 +84,6 @@ register((fastify, opts, next) => {
           reply.redirect(301, `/item/${req.query.q}`)
         },
       )
-
       get("/api/mabo/:q", { schema: { params: "itemq#" } }, (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         reply.type("application/json")
@@ -97,12 +92,10 @@ register((fastify, opts, next) => {
           nProducts: mabo[0].products.length,
         })
       })
-
       get("/api/mabo", (req, reply) => {
         reply.type("application/json")
         return reply.send(mabo)
       })
-
       get("/", cacheSend.bind(null, "/"))
       get("/*", handler)
       setNotFoundHandler(send404)
@@ -111,7 +104,6 @@ register((fastify, opts, next) => {
     .catch(next)
 })
 
-listen(port, (err) => {
-  if (err) throw err
-  console.log(`> Ready on http://localhost:${port}`)
-})
+listen(port)
+  .then(() => console.log(`> Ready on http://localhost:${port}`))
+  .catch(console.error)
