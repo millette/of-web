@@ -1,17 +1,11 @@
 // npm
 import Link from "next/link"
 
-const style = {
-  border: "thin solid blue",
-  margin: "1em",
-  padding: "1em",
-}
-
-export default ({ product: { url, microdata }, i }) => {
+export default ({ className, product: { url, microdata }, i }) => {
   const { name, description, image } = microdata["@graph"][0]
   return (
-    <div style={style}>
-      <h3>
+    <div className={className}>
+      <h3 className="title is-5">
         {i >= 0 ? (
           <Link prefetch href={`/item?q=${i}`} as={`/item/${i}`}>
             <a>{name}</a>
@@ -20,8 +14,18 @@ export default ({ product: { url, microdata }, i }) => {
           name
         )}
       </h3>
-      <p>{description}</p>
-      {!(i >= 0) && <img src={image} />}
+      <div className="columns">
+        <div className="column">
+          <p>{description}</p>
+        </div>
+        {!(i >= 0) && (
+          <div className="column">
+            <figure className="image">
+              <img src={image} />
+            </figure>
+          </div>
+        )}
+      </div>
       <p>{url}</p>
     </div>
   )

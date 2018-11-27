@@ -5,21 +5,21 @@ export default ({ n, nProducts }) => {
   const prev = n - 1 >= 0 && String(n - 1)
   const next = n + 1 < nProducts && String(n + 1)
   return (
-    <ul>
+    <nav
+      className="pagination is-rounded"
+      role="navigation"
+      aria-label="pagination"
+    >
       {prev && (
-        <li>
-          <Link prefetch href={`/item?q=${prev}`} as={`/item/${prev}`}>
-            <a>prev</a>
-          </Link>
-        </li>
+        <Link prefetch href={`/item?q=${prev}`} as={`/item/${prev}`}>
+          <a className="pagination-previous">prev</a>
+        </Link>
       )}
       {next && (
-        <li>
-          <Link prefetch href={`/item?q=${next}`} as={`/item/${next}`}>
-            <a>next</a>
-          </Link>
-        </li>
+        <Link prefetch href={`/item?q=${next}`} as={`/item/${next}`}>
+          <a className="pagination-next">next</a>
+        </Link>
       )}
-    </ul>
+    </nav>
   )
 }
