@@ -1,7 +1,7 @@
 // npm
 import Link from "next/link"
 
-export default ({ className, product: { url, microdata }, i }) => {
+export default ({ className, score, product: { url, microdata }, i }) => {
   const { name, description, image } = microdata["@graph"][0]
   return (
     <div className={className}>
@@ -14,6 +14,7 @@ export default ({ className, product: { url, microdata }, i }) => {
           ) : (
             name
           )}
+          {score > 0 && <small>{score}</small>}
         </h3>
         <div className="columns">
           <div className="column content">
