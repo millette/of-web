@@ -3,7 +3,7 @@ import fetch from "isomorphic-unfetch"
 import Link from "next/link"
 
 // self
-import { Catalog, StoreInfo } from "../components"
+import { Layout, Catalog, StoreInfo } from "../components"
 import { baseUrl } from "../utils"
 
 const Page = ({
@@ -14,11 +14,11 @@ const Page = ({
     },
   ],
 }) => (
-  <>
+  <Layout title="Accueil">
     <StoreInfo rdfa={rdfa["@graph"][0]} url={url}>
       <Catalog products={products} />
     </StoreInfo>
-  </>
+  </Layout>
 )
 
 Page.getInitialProps = ({ req }) =>
