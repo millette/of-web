@@ -33,7 +33,9 @@ const dev = process.env.NODE_ENV !== "production"
 if (dev) {
   decorateReply("etag", function() {})
 } else {
-  register(require("fastify-compress"))
+  register(require("fastify-compress"), {
+    customTypes: /.*/,
+  })
   register(require("fastify-response-time"))
   register(require("fastify-caching"))
 }
@@ -56,10 +58,12 @@ register((fastify, opts, next) => {
   const render404 = app.render404.bind(app)
   const prepare = app.prepare.bind(app)
 
-  const handler = (req, reply) =>
-    handleRequest(req.req, reply.res).then(() => {
+  const handler = (req, reply) => {
+    console.log("REQ:", req.req.url)
+    return handleRequest(req.req, reply.res).then(() => {
       reply.sent = true
     })
+  }
 
   const send404 = (req, reply) =>
     render404(req.req, reply.res).then(() => {
@@ -88,7 +92,15 @@ register((fastify, opts, next) => {
 
   prepare()
     .then(() => {
-      if (dev) get("/_next/*", handler)
+      if (dev) {
+        get("/_next/*", handler)
+      } else {
+        get("/_next/*", handler)
+        /*
+        get("/_next/*", (req, reply) => {
+        })
+        */
+      }
       get("/item/:q", { schema: { params: "itemq#" } }, (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         cacheSend(`/item/${req.params.q}`, req, reply, "/item", {
