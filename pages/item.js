@@ -29,7 +29,7 @@ const Page3 = ({ product, n, nProducts, prev, next }) => {
         <div className="container">
           <h1 className="title">{product.microdata["@graph"][0].name}</h1>
           <h2 className="subtitle">
-            #{n} of {nProducts}
+            #{n} de {nProducts}
           </h2>
           <div className="columns">
             <div className="column is-narrow">
@@ -37,13 +37,12 @@ const Page3 = ({ product, n, nProducts, prev, next }) => {
             </div>
             <div className="column">
               <p style={style}>
-                Hey there, looking for{" "}
+                Allez à la{" "}
                 <Link prefetch href="/">
                   <a>
-                    <b>⌂ home</b>
+                    <b>⌂ page d’accueil</b>
                   </a>
                 </Link>{" "}
-                ?
               </p>
             </div>
           </div>

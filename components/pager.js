@@ -10,8 +10,12 @@ export default ({ n, nProducts }) => {
       role="navigation"
       aria-label="pagination"
     >
-      <PagerLink type="previous" page={previous} />
-      <PagerLink type="next" page={next} />
+      <PagerLink type="previous" page={previous}>
+        précédent
+      </PagerLink>
+      <PagerLink type="next" page={next}>
+        suivant
+      </PagerLink>
     </nav>
   )
 }
