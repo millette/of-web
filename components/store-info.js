@@ -1,4 +1,4 @@
-export default ({ rdfa, url }) => (
+export default ({ children, rdfa, url }) => (
   <>
     <section className="hero is-primary is-bold">
       <div className="hero-body">
@@ -9,6 +9,7 @@ export default ({ rdfa, url }) => (
         </div>
       </div>
     </section>
+    {children}
     <section className="section">
       <div className="container">
         <pre>{JSON.stringify(rdfa, null, "  ")}</pre>

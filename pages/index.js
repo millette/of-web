@@ -15,8 +15,9 @@ const Page = ({
   ],
 }) => (
   <>
-    <StoreInfo rdfa={rdfa["@graph"][0]} url={url} />
-    <Catalog products={products} />
+    <StoreInfo rdfa={rdfa["@graph"][0]} url={url}>
+      <Catalog products={products} />
+    </StoreInfo>
   </>
 )
 
