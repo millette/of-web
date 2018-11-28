@@ -37,10 +37,9 @@ const Page3 = ({ product, n, nProducts, prev, next }) => {
             </div>
             <div className="column">
               <p style={style}>
-                Allez à la{" "}
                 <Link prefetch href="/">
                   <a>
-                    <b>⌂ page d’accueil</b>
+                    <b>⌂ Page d’accueil</b>
                   </a>
                 </Link>{" "}
               </p>
