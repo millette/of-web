@@ -2,7 +2,7 @@
 const { readFileSync } = require("fs")
 
 // npm
-const { register, listen } = require("fastify")()
+const elFastify = require("fastify")()
 const nextjs = require("next")
 const AsyncLRU = require("async-lru")
 
@@ -18,6 +18,10 @@ mabo[0].products = mabo[0].products.map((product) => {
   return product
 })
 
+const register = elFastify.register.bind(elFastify)
+const listen = elFastify.listen.bind(elFastify)
+const decorateReply = elFastify.decorateReply.bind(elFastify)
+
 const bulmaPath = require.resolve("bulma/css/bulma.min.css")
 const bulma =
   readFileSync(bulmaPath, "utf-8") + "\npre { white-space: pre-wrap; }"
@@ -26,15 +30,15 @@ const favicon = readFileSync("favicon.ico")
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
-register((fastify, opts, next) => {
-  if (dev) {
-    fastify.decorateReply("etag", function() {})
-  } else {
-    register(require("fastify-compress"))
-    register(require("fastify-response-time"))
-    register(require("fastify-caching"))
-  }
+if (dev) {
+  decorateReply("etag", function() {})
+} else {
+  register(require("fastify-compress"))
+  register(require("fastify-response-time"))
+  register(require("fastify-caching"))
+}
 
+register((fastify, opts, next) => {
   fastify.addSchema({
     $id: "itemq",
     type: "object",
