@@ -3,5 +3,17 @@ import Pager from "./pager"
 import PagerLink from "./pager-link"
 import StoreInfo from "./store-info"
 import Catalog from "./catalog"
+import Layout from "./layout"
+import Footer from "./footer"
+import External from "./external"
 
-export { ProductTeaser, Pager, StoreInfo, Catalog, PagerLink }
+export {
+  ProductTeaser,
+  Pager,
+  StoreInfo,
+  Catalog,
+  PagerLink,
+  Layout,
+  Footer,
+  External,
+}
