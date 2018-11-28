@@ -7,7 +7,7 @@ export default ({ children, type, page }) =>
       <a className={`pagination-${type}`}>{children || type}</a>
     </Link>
   ) : (
-    <a disabled className={`pagination-${children || type}`}>
-      {type}
+    <a disabled className={`pagination-${type}`}>
+      {children || type}
     </a>
   )
