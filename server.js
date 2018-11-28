@@ -1,5 +1,6 @@
 // core
 const { readFileSync } = require("fs")
+const { join } = require("path")
 
 // npm
 const elFastify = require("fastify")()
@@ -38,6 +39,10 @@ if (dev) {
   })
   register(require("fastify-response-time"))
   register(require("fastify-caching"))
+  register(require("fastify-static"), {
+    root: join(__dirname, ".next"),
+    prefix: "/_next/",
+  })
 }
 
 register((fastify, opts, next) => {
@@ -52,15 +57,13 @@ register((fastify, opts, next) => {
   const get = fastify.get.bind(fastify)
   const setNotFoundHandler = fastify.setNotFoundHandler.bind(fastify)
   const app = nextjs({ dev })
-  const handleRequest = app.handleRequest.bind(app)
   const render = app.render.bind(app)
   const renderToHTML = app.renderToHTML.bind(app)
   const render404 = app.render404.bind(app)
   const prepare = app.prepare.bind(app)
 
-  const handler = (req, reply) => {
-    console.log("REQ:", req.req.url)
-    return handleRequest(req.req, reply.res).then(() => {
+  const nextJsHandler = (req, reply) => {
+    return app.handleRequest(req.req, reply.res).then(() => {
       reply.sent = true
     })
   }
@@ -93,13 +96,7 @@ register((fastify, opts, next) => {
   prepare()
     .then(() => {
       if (dev) {
-        get("/_next/*", handler)
-      } else {
-        get("/_next/*", handler)
-        /*
-        get("/_next/*", (req, reply) => {
-        })
-        */
+        get("/_next/*", nextJsHandler)
       }
       get("/item/:q", { schema: { params: "itemq#" } }, (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
@@ -140,7 +137,7 @@ register((fastify, opts, next) => {
         return reply.send(bulma)
       })
       get("/", cacheSend.bind(null, "/"))
-      get("/*", handler)
+      // get("/*", nextJsHandler)
       setNotFoundHandler(send404)
       next()
     })
