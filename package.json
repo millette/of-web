@@ -1,6 +1,7 @@
 {
   "name": "of-web",
   "version": "0.0.1",
+  "main": "server",
   "license": "AGPL-3.0",
   "lint-staged": {
     "*.{js,json,md}": [
