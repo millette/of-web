@@ -144,6 +144,6 @@ register((fastify, opts, next) => {
     .catch(next)
 })
 
-listen(port)
+listen(port, '0.0.0.0')
   .then(() => console.log(`> Ready on http://localhost:${port}`))
   .catch(console.error)
