@@ -5,7 +5,7 @@ const { join } = require("path")
 // npm
 const elFastify = require("fastify")()
 const nextjs = require("next")
-const AsyncLRU = require("async-lru")
+// const AsyncLRU = require("async-lru")
 
 // self
 const { name, version } = require("./package.json")
@@ -70,6 +70,7 @@ register((fastify, opts, next) => {
       reply.sent = true
     })
 
+  /*
   const lru = new AsyncLRU({
     max: dev ? 1 : 20,
     load: (req, reply, path, opts, cb) => {
@@ -79,7 +80,9 @@ register((fastify, opts, next) => {
         .catch(cb)
     },
   })
+  */
 
+  /*
   const cacheSend = (key, req, reply, path, opts) =>
     new Promise((resolve, reject) => {
       lru.get(key, [req, reply, path || key, opts], (err, html) => {
@@ -89,6 +92,7 @@ register((fastify, opts, next) => {
         resolve(reply.send(html))
       })
     })
+  */
 
   prepare()
     .then(() => {
@@ -105,7 +109,7 @@ register((fastify, opts, next) => {
         "/item",
         { schema: { querystring: { q: { type: "integer" } } } },
         (req, reply) => {
-          if (req.query.q === undefined) return send404(req, reply)
+          if (!mabo[0].products[req.query.q]) return send404(req, reply)
           reply.redirect(301, `/item/${req.query.q}`)
         },
       )
