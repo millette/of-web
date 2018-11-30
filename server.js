@@ -34,9 +34,6 @@ const dev = process.env.NODE_ENV !== "production"
 if (dev) {
   decorateReply("etag", () => false)
 } else {
-  register(require("fastify-compress"), {
-    customTypes: /.*/,
-  })
   register(require("fastify-response-time"))
   register(require("fastify-caching"))
   register(require("fastify-static"), {
@@ -88,7 +85,7 @@ register((fastify, opts, next) => {
       lru.get(key, [req, reply, path || key, opts], (err, html) => {
         if (err) return reject(err)
         reply.type("text/html")
-        reply.etag(`${key}-${name}-v${version}`)
+        reply.etag(`"${key}-${name}-v${version}"`.replace(/[-./]+/g, ""))
         resolve(reply.send(html))
       })
     })
@@ -115,7 +112,9 @@ register((fastify, opts, next) => {
       get("/api/mabo/:q", { schema: { params: "itemq#" } }, (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         reply.type("application/json")
-        reply.etag(`${req.raw.url}-${name}-v${version}`)
+        reply.etag(
+          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
+        )
         return reply.send({
           product: mabo[0].products[req.params.q],
           nProducts: mabo[0].products.length,
@@ -123,21 +122,28 @@ register((fastify, opts, next) => {
       })
       get("/api/mabo", (req, reply) => {
         reply.type("application/json")
-        reply.etag(`${req.raw.url}-${name}-v${version}`)
+        reply.etag(
+          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
+        )
         return reply.send(mabo)
       })
       get("/favicon.ico", (req, reply) => {
         reply.type("image/x-icon")
-        reply.etag(`${req.raw.url}-${name}-v${version}`)
+        reply.etag(
+          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
+        )
         return reply.send(favicon)
       })
       get("/bulma.css", (req, reply) => {
         reply.type("text/css")
-        reply.etag(`${req.raw.url}-${name}-v${version}`)
+        reply.etag(
+          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
+        )
+        // reply.etag()
         return reply.send(bulma)
       })
       get("/", cacheSend.bind(null, "/"))
-      // get("/*", nextJsHandler)
+      get("/*", nextJsHandler)
       setNotFoundHandler(send404)
       next()
     })
