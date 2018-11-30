@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
 USER node
-RUN mkdir /home/node/app 
+RUN mkdir /home/node/app
 WORKDIR /home/node/app
 
 COPY package*.json ./
@@ -24,5 +24,3 @@ ENV NODE_ENV=production
 ENTRYPOINT ["node", "."]
 
 EXPOSE 3000
-
-
