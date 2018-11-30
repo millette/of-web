@@ -1,0 +1,22 @@
+version: '3'
+services:
+  node:
+    build:
+      context: .
+      dockerfile: node.dockerfile
+    ports:
+     - "3000:3000"
+
+  caddy:
+    image: "abiosoft/caddy:0.11.1-no-stats"
+    volumes: 
+     - "/root/caddy/Caddyfile:/etc/Caddyfile"
+     - "/root/caddy/certs:/root/.caddy"
+     - "/root/caddy/sites:/srv"
+    ports:
+     - "80:80"
+     - "81:81"
+     - "82:82"
+     - "443:443"
+     - "2015:2015"
+
