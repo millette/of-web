@@ -3,7 +3,7 @@ import fetch from "isomorphic-unfetch"
 import Link from "next/link"
 
 // self
-import { Layout, ProductTeaser, Pager } from "../components"
+import { Pre, Layout, ProductTeaser, Pager } from "../components"
 import { baseUrl } from "../utils"
 
 const style = { marginTop: "6px" }
@@ -36,13 +36,13 @@ const Page3 = ({ product, n, nProducts, prev, next }) => (
     <section className="section">
       <div className="container">
         <h3 className="title is-5">microdata</h3>
-        <pre>{JSON.stringify(product.microdata["@graph"][0], null, "  ")}</pre>
+        <Pre>{product.microdata["@graph"][0]}</Pre>
       </div>
     </section>
     <section className="section">
       <div className="container">
         <h3 className="title is-5">json</h3>
-        <pre>{JSON.stringify(product, null, "  ")}</pre>
+        <Pre>{product}</Pre>
       </div>
     </section>
   </Layout>

@@ -1,3 +1,6 @@
+// self
+import { Pre } from "../components"
+
 export default ({ children, rdfa, url }) => (
   <>
     <section className="hero is-primary is-bold">
@@ -12,7 +15,7 @@ export default ({ children, rdfa, url }) => (
     {children}
     <section className="section">
       <div className="container">
-        <pre>{JSON.stringify(rdfa, null, "  ")}</pre>
+        <Pre>{rdfa}</Pre>
       </div>
     </section>
   </>
