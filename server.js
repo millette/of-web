@@ -1,6 +1,5 @@
 // core
-// const { readFileSync } = require("fs")
-const { join } = require("path")
+const { join, dirname } = require("path")
 
 // npm
 const elFastify = require("fastify")()
@@ -23,13 +22,6 @@ const register = elFastify.register.bind(elFastify)
 const listen = elFastify.listen.bind(elFastify)
 const decorateReply = elFastify.decorateReply.bind(elFastify)
 
-/*
-const bulmaPath = require.resolve("bulma/css/bulma.min.css")
-const bulma =
-  readFileSync(bulmaPath, "utf-8") + "\npre { white-space: pre-wrap; }"
-*/
-
-// const favicon = readFileSync("favicon.ico")
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
@@ -106,10 +98,17 @@ register((fastify, opts, next) => {
       }
 
       register(require("fastify-static"), {
+        root: dirname(require.resolve("bulma/css/bulma.min.css")),
+        prefix: "/css/",
+        decorateReply: false,
+      })
+
+      register(require("fastify-static"), {
         root: join(__dirname, "root"),
         serve: false,
       })
 
+      // FIXME: automatically route each file in /root
       get("/favicon.ico", (req, reply) => reply.sendFile("favicon.ico"))
 
       get("/item/:q", { schema: { params: "itemq#" } }, async (req, reply) => {
@@ -158,19 +157,6 @@ register((fastify, opts, next) => {
         return reply.send(mabo)
       })
 
-      // FIXME
-      /*
-      get("/bulma.css", (req, reply) => {
-        reply.type("text/css")
-        reply.etag(
-          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
-        )
-        // reply.etag()
-        return reply.send(bulma)
-      })
-      */
-      // FIXME
-      // get("/", cacheSend.bind(null, "/"))
       get("/", async (req, reply) => {
         const cached = await getPromise("/")
         if (cached && cached.item && cached.item.html) {
@@ -188,7 +174,6 @@ register((fastify, opts, next) => {
         return reply.send(html)
       })
 
-      // get("/*", nextJsHandler) // not needed
       setNotFoundHandler(send404)
       next()
     })
