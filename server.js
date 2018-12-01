@@ -77,6 +77,29 @@ register((fastify, opts, next) => {
       )
     })
 
+  const cacheSend = async (req, reply, path, opts) => {
+    const cached = await getPromise(req.raw.url)
+    if (cached && cached.item && cached.item.html) {
+      reply
+        .etag(cached.item.etag)
+        .type("text/html")
+        .header("last-modified", cached.item.date)
+      return cached.item.html
+    }
+    const html = await renderToHTML(
+      req.req,
+      reply.res,
+      path || req.raw.url,
+      opts,
+    )
+    const { etag, date } = await setPromise(req.raw.url, html)
+    reply
+      .etag(etag)
+      .type("text/html")
+      .header("last-modified", date)
+    return html
+  }
+
   prepare()
     .then(() => {
       if (dev) {
@@ -103,29 +126,6 @@ register((fastify, opts, next) => {
       // TODO: automatically route each file in /root
       get("/favicon.ico", (req, reply) => reply.sendFile("favicon.ico"))
 
-      get("/item/:q", { schema: { params: "itemq#" } }, async (req, reply) => {
-        if (!mabo[0].products[req.params.q]) return send404(req, reply)
-        const cached = await getPromise(req.raw.url)
-        if (cached && cached.item && cached.item.html) {
-          reply
-            .etag(cached.item.etag)
-            .type("text/html")
-            .header("last-modified", cached.item.date)
-          return cached.item.html
-        }
-
-        const html = await renderToHTML(req.req, reply.res, "/item", {
-          q: String(req.params.q),
-        })
-
-        const { etag, date } = await setPromise(req.raw.url, html)
-        reply
-          .etag(etag)
-          .type("text/html")
-          .header("last-modified", date)
-        return html
-      })
-
       get(
         "/api/mabo/:q",
         { schema: { params: "itemq#" } },
@@ -148,24 +148,13 @@ register((fastify, opts, next) => {
         return mabo
       })
 
-      get("/", async (req, reply) => {
-        const cached = await getPromise("/")
-        if (cached && cached.item && cached.item.html) {
-          reply
-            .etag(cached.item.etag)
-            .type("text/html")
-            .header("last-modified", cached.item.date)
-          return cached.item.html
-        }
-
-        const html = await renderToHTML(req.req, reply.res, "/")
-        const { etag, date } = await setPromise("/", html)
-        reply
-          .etag(etag)
-          .type("text/html")
-          .header("last-modified", date)
-        return html
+      get("/item/:q", { schema: { params: "itemq#" } }, async (req, reply) => {
+        if (!mabo[0].products[req.params.q]) return send404(req, reply)
+        const q = String(req.params.q)
+        return cacheSend(req, reply, "/item", { q })
       })
+
+      get("/", cacheSend)
 
       setNotFoundHandler(send404)
       next()
