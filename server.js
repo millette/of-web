@@ -100,7 +100,7 @@ register((fastify, opts, next) => {
         serve: false,
       })
 
-      // FIXME: automatically route each file in /root
+      // TODO: automatically route each file in /root
       get("/favicon.ico", (req, reply) => reply.sendFile("favicon.ico"))
 
       get("/item/:q", { schema: { params: "itemq#" } }, async (req, reply) => {
@@ -131,13 +131,9 @@ register((fastify, opts, next) => {
         { schema: { params: "itemq#" } },
         async (req, reply) => {
           if (!mabo[0].products[req.params.q]) return send404(req, reply)
-          reply.type("application/json; charset=utf-8")
-          // FIXME
-          /*
-        reply.etag(
-          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
-        )
-        */
+          reply
+            .type("application/json; charset=utf-8")
+            .etag(`"api-item-${req.params.q}-${name}-v${version}"`)
           return {
             product: mabo[0].products[req.params.q],
             nProducts: mabo[0].products.length,
@@ -146,13 +142,9 @@ register((fastify, opts, next) => {
       )
 
       get("/api/mabo", async (req, reply) => {
-        reply.type("application/json; charset=utf-8")
-        // FIXME
-        /*
-        reply.etag(
-          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
-        )
-        */
+        reply
+          .type("application/json; charset=utf-8")
+          .etag(`"api-mabo-${name}-v${version}"`)
         return mabo
       })
 
