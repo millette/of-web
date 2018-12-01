@@ -101,8 +101,17 @@ register((fastify, opts, next) => {
         register(require("fastify-static"), {
           root: join(__dirname, ".next"),
           prefix: "/_next/",
+          decorateReply: false,
         })
       }
+
+      register(require("fastify-static"), {
+        root: join(__dirname, "root"),
+        serve: false,
+      })
+
+      get("/favicon.ico", (req, reply) => reply.sendFile("favicon.ico"))
+
       get("/item/:q", { schema: { params: "itemq#" } }, async (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         const cached = await getPromise(req.raw.url)
@@ -123,18 +132,6 @@ register((fastify, opts, next) => {
         reply.header("last-modified", date)
         return reply.send(html)
       })
-
-      /*
-      // FIXME: remove redirect
-      get(
-        "/item",
-        { schema: { querystring: { q: { type: "integer" } } } },
-        (req, reply) => {
-          if (!mabo[0].products[req.query.q]) return send404(req, reply)
-          reply.redirect(301, `/item/${req.query.q}`)
-        },
-      )
-      */
 
       get("/api/mabo/:q", { schema: { params: "itemq#" } }, (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
@@ -160,16 +157,7 @@ register((fastify, opts, next) => {
         */
         return reply.send(mabo)
       })
-      // FIXME
-      /*
-      get("/favicon.ico", (req, reply) => {
-        reply.type("image/x-icon")
-        reply.etag(
-          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
-        )
-        return reply.send(favicon)
-      })
-      */
+
       // FIXME
       /*
       get("/bulma.css", (req, reply) => {
