@@ -25,6 +25,7 @@ const decorateReply = elFastify.decorateReply.bind(elFastify)
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
+const TTL = dev ? 30 : 86400000 * 30
 const cacheOptions = { driver: { options: {} } }
 if (dev) cacheOptions.driver.options.maxItems = 10
 const cache = abstractCache(cacheOptions)
@@ -66,15 +67,14 @@ register((fastify, opts, next) => {
       ),
     )
 
-  const setPromise = (key, html, ttl) =>
+  const setPromise = (key, html) =>
     new Promise((resolve, reject) => {
       const date = new Date().toUTCString()
       const etag = `"${key.replace(/[^a-z0-9]/g, "")}${html.length}"`
       const obj = { html, date, etag }
-      fastify.cache.set(key, obj, ttl, (err) => {
-        if (err) return reject(err)
-        resolve(obj)
-      })
+      fastify.cache.set(key, obj, TTL, (err) =>
+        err ? reject(err) : resolve(obj),
+      )
     })
 
   prepare()
@@ -118,7 +118,7 @@ register((fastify, opts, next) => {
           q: String(req.params.q),
         })
 
-        const { etag, date } = await setPromise(req.raw.url, html, 666666)
+        const { etag, date } = await setPromise(req.raw.url, html)
         reply
           .etag(etag)
           .type("text/html")
@@ -167,7 +167,7 @@ register((fastify, opts, next) => {
         }
 
         const html = await renderToHTML(req.req, reply.res, "/")
-        const { etag, date } = await setPromise("/", html, 666666)
+        const { etag, date } = await setPromise("/", html)
         reply
           .etag(etag)
           .type("text/html")
