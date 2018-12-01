@@ -12,7 +12,7 @@ export default ({ n, nProducts }) => {
     >
       <PagerLink type="previous" page={previous}>
         précédent
-      </PagerLink>
+      </PagerLink>{" "}
       <PagerLink type="next" page={next}>
         suivant
       </PagerLink>
