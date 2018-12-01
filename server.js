@@ -25,14 +25,8 @@ const decorateReply = elFastify.decorateReply.bind(elFastify)
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
 
-const cacheOptions = {
-  driver: {
-    options: {},
-  },
-}
-
+const cacheOptions = { driver: { options: {} } }
 if (dev) cacheOptions.driver.options.maxItems = 10
-
 const cache = abstractCache(cacheOptions)
 
 register(require("fastify-response-time"))
@@ -67,12 +61,11 @@ register((fastify, opts, next) => {
     })
 
   const getPromise = (key) =>
-    new Promise((resolve, reject) => {
-      fastify.cache.get(key, (err, cached) => {
-        if (err) return reject(err)
-        resolve(cached)
-      })
-    })
+    new Promise((resolve, reject) =>
+      fastify.cache.get(key, (err, cached) =>
+        err ? reject(err) : resolve(cached),
+      ),
+    )
 
   const setPromise = (key, html, ttl) =>
     new Promise((resolve, reject) => {
@@ -115,10 +108,11 @@ register((fastify, opts, next) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         const cached = await getPromise(req.raw.url)
         if (cached && cached.item && cached.item.html) {
-          reply.etag(cached.item.etag)
-          reply.type("text/html")
-          reply.header("last-modified", cached.item.date)
-          return reply.send(cached.item.html)
+          reply
+            .etag(cached.item.etag)
+            .type("text/html")
+            .header("last-modified", cached.item.date)
+          return cached.item.html
         }
 
         const html = await renderToHTML(req.req, reply.res, "/item", {
@@ -126,52 +120,60 @@ register((fastify, opts, next) => {
         })
 
         const { etag, date } = await setPromise(req.raw.url, html, 666666)
-        reply.etag(etag)
-        reply.type("text/html")
-        reply.header("last-modified", date)
-        return reply.send(html)
+        reply
+          .etag(etag)
+          .type("text/html")
+          .header("last-modified", date)
+        return html
       })
 
-      get("/api/mabo/:q", { schema: { params: "itemq#" } }, (req, reply) => {
-        if (!mabo[0].products[req.params.q]) return send404(req, reply)
-        reply.type("application/json")
+      get(
+        "/api/mabo/:q",
+        { schema: { params: "itemq#" } },
+        async (req, reply) => {
+          if (!mabo[0].products[req.params.q]) return send404(req, reply)
+          reply.type("application/json; charset=utf-8")
+          // FIXME
+          /*
+        reply.etag(
+          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
+        )
+        */
+          return {
+            product: mabo[0].products[req.params.q],
+            nProducts: mabo[0].products.length,
+          }
+        },
+      )
+
+      get("/api/mabo", async (req, reply) => {
+        reply.type("application/json; charset=utf-8")
         // FIXME
         /*
         reply.etag(
           `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
         )
         */
-        return reply.send({
-          product: mabo[0].products[req.params.q],
-          nProducts: mabo[0].products.length,
-        })
-      })
-      get("/api/mabo", (req, reply) => {
-        reply.type("application/json")
-        // FIXME
-        /*
-        reply.etag(
-          `"${req.raw.url}-${name}-v${version}"`.replace(/[-./]+/g, ""),
-        )
-        */
-        return reply.send(mabo)
+        return mabo
       })
 
       get("/", async (req, reply) => {
         const cached = await getPromise("/")
         if (cached && cached.item && cached.item.html) {
-          reply.etag(cached.item.etag)
-          reply.type("text/html")
-          reply.header("last-modified", cached.item.date)
-          return reply.send(cached.item.html)
+          reply
+            .etag(cached.item.etag)
+            .type("text/html")
+            .header("last-modified", cached.item.date)
+          return cached.item.html
         }
 
         const html = await renderToHTML(req.req, reply.res, "/")
         const { etag, date } = await setPromise("/", html, 666666)
-        reply.etag(etag)
-        reply.type("text/html")
-        reply.header("last-modified", date)
-        return reply.send(html)
+        reply
+          .etag(etag)
+          .type("text/html")
+          .header("last-modified", date)
+        return html
       })
 
       setNotFoundHandler(send404)
