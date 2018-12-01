@@ -1,0 +1,18 @@
+http://68.183.61.124, https://68.183.61.124 {
+  gzip
+  root /srv/site1
+}
+
+http://68.183.61.124:81 {
+  gzip
+  proxy / http://68.183.61.124:3001/ http://68.183.61.124:3002/ {
+    transparent
+  }
+  log stdout
+}
+
+http://68.183.61.124:82 {
+  gzip
+  root /srv/site3
+}
+
