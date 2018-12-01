@@ -5,6 +5,7 @@ const { join, dirname } = require("path")
 const elFastify = require("fastify")()
 const nextjs = require("next")
 const abstractCache = require("abstract-cache")
+const fastifyCaching = require("fastify-caching")
 
 // self
 const { name, version } = require("./package.json")
@@ -27,7 +28,11 @@ const cacheOptions = { driver: { options: {} } }
 if (dev) cacheOptions.driver.options.maxItems = 10
 const cache = abstractCache(cacheOptions)
 register(require("fastify-response-time"))
-register(require("fastify-caching"), { cache })
+register(fastifyCaching, {
+  // expiresIn: TTL,
+  privacy: fastifyCaching.privacy.PUBLIC,
+  cache,
+})
 
 register((fastify, opts, next) => {
   fastify.addSchema({
@@ -76,10 +81,7 @@ register((fastify, opts, next) => {
   const cacheSend = async (req, reply, opts, path) => {
     const cached = await getPromise(req.raw.url)
     if (cached && cached.item && cached.item.html) {
-      reply
-        .etag(cached.item.etag)
-        .type("text/html")
-        .header("last-modified", cached.item.date)
+      reply.etag(cached.item.etag).type("text/html")
       return cached.item.html
     }
     const html = await renderToHTML(
@@ -92,7 +94,7 @@ register((fastify, opts, next) => {
     reply
       .etag(etag)
       .type("text/html")
-      .header("last-modified", date)
+      .header("x-backend", process.env.HOSTNAME)
     return html
   }
 
@@ -159,5 +161,5 @@ register((fastify, opts, next) => {
 })
 
 listen(parseInt(process.env.PORT, 10) || 3000, process.env.HOSTNAME)
-  .then(() => console.log("> Ready"))
+  .then(() => console.log("> Ready", process.env.HOSTNAME))
   .catch(console.error)
