@@ -49,11 +49,10 @@ register((fastify, opts, next) => {
   const render404 = app.render404.bind(app)
   const prepare = app.prepare.bind(app)
 
-  const nextJsHandler = (req, reply) => {
-    return app.handleRequest(req.req, reply.res).then(() => {
+  const nextJsHandler = (req, reply) =>
+    app.handleRequest(req.req, reply.res).then(() => {
       reply.sent = true
     })
-  }
 
   const send404 = (req, reply) =>
     render404(req.req, reply.res).then(() => {
