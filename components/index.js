@@ -6,6 +6,7 @@ import Catalog from "./catalog"
 import Layout from "./layout"
 import Footer from "./footer"
 import External from "./external"
+import Pre from "./pre"
 
 export {
   ProductTeaser,
@@ -16,4 +17,5 @@ export {
   Layout,
   Footer,
   External,
+  Pre,
 }
