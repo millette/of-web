@@ -21,15 +21,11 @@ mabo[0].products = mabo[0].products.map((product) => {
 const register = elFastify.register.bind(elFastify)
 const listen = elFastify.listen.bind(elFastify)
 const decorateReply = elFastify.decorateReply.bind(elFastify)
-
-const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== "production"
-
 const TTL = dev ? 30 : 86400000 * 30
 const cacheOptions = { driver: { options: {} } }
 if (dev) cacheOptions.driver.options.maxItems = 10
 const cache = abstractCache(cacheOptions)
-
 register(require("fastify-response-time"))
 register(require("fastify-caching"), { cache })
 
@@ -77,7 +73,7 @@ register((fastify, opts, next) => {
       )
     })
 
-  const cacheSend = async (req, reply, path, opts) => {
+  const cacheSend = async (req, reply, opts, path) => {
     const cached = await getPromise(req.raw.url)
     if (cached && cached.item && cached.item.html) {
       reply
@@ -151,7 +147,7 @@ register((fastify, opts, next) => {
       get("/item/:q", { schema: { params: "itemq#" } }, async (req, reply) => {
         if (!mabo[0].products[req.params.q]) return send404(req, reply)
         const q = String(req.params.q)
-        return cacheSend(req, reply, "/item", { q })
+        return cacheSend(req, reply, { q }, "/item")
       })
 
       get("/", cacheSend)
@@ -162,6 +158,6 @@ register((fastify, opts, next) => {
     .catch(next)
 })
 
-listen(port, process.env.HOSTNAME)
+listen(parseInt(process.env.PORT, 10) || 3000, process.env.HOSTNAME)
   .then(() => console.log("> Ready"))
   .catch(console.error)
