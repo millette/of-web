@@ -17,7 +17,7 @@ COPY ./utils ./utils
 RUN npm run build && rm -fr node_modules && npm ci --production --offline && rm -fr ../.npm
 
 COPY server.js .
-COPY favicon.ico .
+COPY ./root ./root
 
 ENV NODE_ENV=production
 
