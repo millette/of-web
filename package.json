@@ -31,17 +31,17 @@
   "dependencies": {
     "abstract-cache": "^1.0.1",
     "bulma": "^0.7.2",
-    "fastify": "^1.13.1",
+    "fastify": "^1.13.3",
     "fastify-caching": "^3.0.0",
-    "fastify-response-time": "^1.0.4",
+    "fastify-response-time": "^1.1.0",
     "fastify-static": "^0.14.0",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.2-canary.34",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "husky": "^1.2.0",
+    "husky": "^1.3.1",
     "lint-staged": "^8.1.0",
     "prettier": "^1.15.3"
   }
