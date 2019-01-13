@@ -31,7 +31,7 @@
   "dependencies": {
     "abstract-cache": "^1.0.1",
     "bulma": "^0.7.2",
-    "fastify": "^1.13.3",
+    "fastify": "^1.13.4",
     "fastify-caching": "^3.0.0",
     "fastify-response-time": "^1.1.0",
     "fastify-static": "^1.1.0",
